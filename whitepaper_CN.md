@@ -1,717 +1,742 @@
-# Hashgard Digital Finance Blockchain White Paper
+# 临界（Hashgard）   数字金融区块链白皮书
 
-**A Next-Generation Digital Finance Public Blockchain**
 
 
+## 新一代数字金融公有链
 
-March 2019, Hashgard Foundation Ltd.
 
 
 
-[TOC]
 
-# Chapter I – Blockchain: A Social Experiment and Financial Revolution
 
-## 1.1 The History of Blockchain Technology
 
-In 1982, American computer scientist David Chaum first put forward the idea of an untraceable cryptographic online payment system. In 1990, he developed this idea into the world’s first anonymous cryptographic electronic cash system, known as eCash.
 
-In 1998, computer engineer Wei Dai published a paper introducing a new system of anonymous and distributed electronic cash, which he named B-money.
 
-In 1998, the same year that Wei Dai's paper was published, Nick Szabo created the architecture for a system called ‘Bit Gold,’ and constructed a system to authenticate property rights. Hal Finney went on to improve this mechanism and transform it into a reproducible proof of work.
 
-In 2008, Satoshi Nakamoto released *Bitcoin: A Peer to Peer Electronic Cash System* on a cryptography mailing list – the first paper to propose the concept of blockchain. He then used this concept to propose the construction of the Bitcoin blockchain network. Since its establishment in 2009, the Bitcoin blockchain network has maintained operations, and the entire digital currency process has now been fully realized, from token issuance to digital asset circulation. At the same time, the basic underlying technology of blockchain has also been applied to a gradually growing set of scenarios, which has subsequently helped to create various new types of digital currencies.
 
-In 2015, the open-source project Ethereum was officially released, featuring the concept of smart contracts, inspiring a host of innovators. Ethereum provides complete freedom through its Turing-complete scripting language, and allows for consistent registration and transfer of a variety of digital assets and smart contracts, greatly facilitating the issuance and circulation of digital currency, and significantly broadening its application scenarios.
-
-The rapid development of blockchain technology has gradually raised the public profile of digital currency. This has especially been the case since early 2017, when initial coin offerings (ICOs) became an increasingly prominent and frequent business practice, helping a broad plethora of products to continuously emerge across the industry, bringing a new cycle of prosperity to the digital currency market. At the end of 2017, this surge reached its peak, and observers inside and outside the industry widely opined that blockchain would become the next tech revolution following the mobile internet. During this same period, a large number of leaders in the tech and finance industries began to actively embrace blockchain for use in their companies or projects.
-
-## 1.2 The Impact of Blockchain on Traditional Finance
-
-Technological innovation and development has allowed the format of financial services to evolve. Over the past five decades, electronic financial data has replaced hand-written records, enabling an era of credit cards. The popularity of terminals has marked the ATM era, while the coming of Internet and mobile Internet has introduced electronic banking and mobile payments.
-
-The arrival of blockchain today marks another historical era.
-
-Blockchain, together with technologies such as big data, AI, cloud computing, and bio-informatics, will form the financial infrastructure for the next generation. This infrastructure will be able to overcome several longstanding problems in the current financial system, as follows.
-
-1.  In the traditional centralized financial system, financial intermediary fees are high enough to limit transaction scale. Intermediaries not only have large expenses for themselves, but also require high profits to cover potential credit risks. Due to the high cost, when using traditional financial intermediary services, financial institutions often set minimum scales of transactions for deposit, cross-border transfer, stock and fund transaction sizes, frequently blocking small and micro-sized transactions. However, blockchain distributed ledger is a trust machine. It can help financial institutions save on intermediary costs, without requiring a third-party intermediary, making small and micro-sized peer-to-peer transactions possible.
-
-2.  In the traditional centralized financial system, users may be defrauded. Transactions are frequently not “atomized,” but rather the intermediary assumes the responsibility as a guarantor, which makes it possible for either party to maliciously default and defraud the other party. Since blockchain is a distributed technology, though, a financial system based on it contains no single point of failure, and creates no risk of collapse.
-
-
-
-3.  In the traditional centralized financial system, users’ private data and assets are potentially vulnerable. In recent years, cases of private user data leakage have been reported by various media outlets. Massive amounts of personal identities, bank accounts, transaction records, and even passwords have been listed for sale on various websites, resulting in serious threats to user privacy and asset security. However, in the blockchain network, user data is kept by users themselves, instead of in a centralized system, realizing democratization of data, and effectively protecting privacy and asset security.
-
-
-Obviously, with the continuous development of blockchain technology, its distributed ledgers, smart contracts, zero-knowledge proofs, multi-party secure computation, and homomorphic encryption can effectively resolve pain points in the current financial industry, and may create the possibility for new models and products, thus creating a more intelligent, more effective, and safer financial ecosystem.
-
-
-## 1.3 Blockchain + Finance Integration and Pilot Projects
-
-At the present phase, extensive blockchain integration and pilot projects have been developed in cross-border payments, asset management, digital fiat currency, trusted identity, internal settlement, and security and asset transactions.
-
-### 1.3.1 Blockchain + Cross-border Payments
-
-Blockchain has the following strengths for transfer: low cost, real-time settlement, regulatory-friendly, and high liquidity. Blockchain project Ripple has launched several cross-border payment schemes for the banking sector, including (1) xCurrent: a real-time settlement solution for financial institutions, realizing quick, convenient and low-cost end-to-end cross-border interbank transfers; (2) XRapid: a real-time settlement solution based on Ripple (XPR) token, which can save 40% - 70% compared to the cost of ordinary international remittance schemes; (3) XVia, which provides a standard interface product for payment between companies through a real-time gateway settlement channel. In January 2019, Ripple announced that it had served over 200 cross-border payment providers, such as MUFG, Mizuho Bank, Crédit Agricole, SEB, the international payments platform of American Express, and Banco Santander, with 2 - 3 new customers being added per week. With its rapidly growing cross-border payment business, many experts predict that Ripple will replace SWIFT to become a cross-border payment giant.
-
-### 1.3.2 Blockchain + Asset Management
-
-The digital asset management industry is currently in the ascendant. By February 2019, there were 700 cryptocurrency funds, with asset under management of 10 billion US Dollars globally. On November 1, 2018, the Securities and Futures Commission (SFC) of Hong Kong released a *Statement on Regulatory Framework for Virtual Asset Portfolios Managers, Fund Distributors and Trading Platform Operators* (the “Statement”), allowing licensed fund companies to allocate up to 10% of their assets in the digital currency market. Fidelity Fund, one of the world's largest fund managers, also established a digital asset custody company in 2018. The company provides solutions for custody of BTC, ETH, and other cryptocurrencies, as well as 24-hour advisory services for cryptocurrency transaction platforms and institutions.
-
-### 1.3.3 Blockchain + Digital Fiat Currencies
-
-Venezuelan President Nicolás Maduro announced the birth of the Petro in a televised speech on December 3, 2017. Venezuela launched the pre-sale on February 20, 2018, making the country a world leader in digital fiat. The pre-sale raised 735 million USD on the first day.
-
-According to the White Paper, the Venezuelan government expected to issue 100 million Petros, worth about 60 billion USD, and it will be listed on cryptocurrency exchanges. The government will accept Petros as payment for taxes, fees, donations, and public services. State-owned companies including the petroleum company PDVSA will also participate in Petro sale and purchase.
-
-Maduro said that the new currency would be supported by Venezuela's oil, gasoline, gold, and diamond reserves. The Petro will help Venezuela “move forward in currency sovereignty” and provide the country with “a new form of international financing.” Through this innovative step, Maduro hoped to lead the country out of its mire of hyperinflation and severe economic crisis, paying off debts and increasing imports of necessities and raw materials. He also hoped to bypass the economic sanctions imposed by the US government, allowing US individuals and Venezuelan enterprises to resume business.
-
-Besides Venezuela, many other countries are also accelerating research on digital fiat currencies based on blockchain. For example, the Monetary Authority of Singapore and Deloitte have jointly launched Project Ubin to digitize the Singapore dollar (SGD). The Bank of Canada has also launched CAD-coin, a Jasper-based digital fiat currency project; the People's Bank of China has established the Digital Currency Research Institute, organizing experts to study central bank digital currencies; and the Marshall Islands will issue its own legal tender cryptocurrency, pegged to the US dollar. As the technology continues to develop, we believe that more countries will eventually use blockchain to build their own digital currencies.
-
-### 1.3.4 Blockchain + Trusted Identity
-
-In early 2018, SecureKey, initially established in Canada, cooperated with IBM to release a nationwide identity and authentication system based on blockchain. The new system applies IBM’s blockchain technology to enable users to prove their identity to the government, banks, and telecommunication operators through mobile phones and Windows devices. Through the app, they can also confirm details such as their age or credit score when accessing services. Online consumers will no longer need to sign documents by themselves or provide other identification materials when applying for new apartments or mobile phones. The blockchain authentication system will enable them to control and share their personal information without using a centralized system to create “value” information, with its security vulnerabilities. It is reported that Toronto-Dominion Bank, the Royal Bank of Canada, and other large financial institutions have invested CAD 30 million (about US$ 23.5 million) in the program.
-
-### 1.3.5 Blockchain + Corporate Tokens
-
-In February 2019, J.P. Morgan Chase & Co., the largest US commercial bank, announced a plan to issue its own digital currency, JPMCoin on its private chain platform Quorum. JPMCoin is pegged at a 1:1 ratio to the US dollar, and the company will use its strong capital reserve to ensure the stability of its token. JPMCoin is designed for inter-enterprise capital flow, and its early applications mainly involve cross-border payment, securities trading, and US dollar substitution for large enterprise customers. However, few institutional customers have participated in the test. Meanwhile, the internet giant Facebook is also quietly moving into cryptocurrency.
-
-### 1.3.6 Blockchain + Asset Transaction
-
-In December 2018, Bakkt, a digital asset trading platform founded by the Intercontinental Exchange (ICE), the parent company of the New York Stock Exchange (NYSE), announced the completion of its first round of funding, raising US$ 183 million from 12 partners and investors.
-
-Bakkt is using ICE's trading infrastructure to a certain extent to provide new infrastructure – including the industry's first institutional-level regulated trading platform and clearance and savings services for physical delivery and storage – in the hope that Bitcoin futures trading becomes more widely accepted.
-
-Both the Chicago Board Options Exchange and Chicago Mercantile Exchange trade Bitcoin futures without delivering the actual currency, making settlements in cash based on changes in Bitcoin prices. This makes them an instrument for betting on future currency prices. Bakkt takes physical delivery and trades without margin.
-
-Bakkt is building an open, seamless global network, enabling users to purchase, sell, store and use digital assets simply, securely, and efficiently. Bakkt also hopes to use Bitcoin to simplify and disrupt the retail payment industry, allowing consumers to switch from swiping credit cards to scanning Bitcoin apps. The market space is massive: consumers pay up to US$ 25 trillion a year worldwide in credit card and online shopping fees.
-
-*Fortune Magazine* also said that “ICE's foray into cryptocurrency trading is a big deal. It is a well-established, respected and extremely powerful institutional player in the financial industry.”
-
-### 1.3.7 Blockchain + Security Tokens
-
-There is no clear definition of security tokens, but according to general understanding in the industry, it can be simply defined as asset tokenization in accordance with regulations. The definition includes two main parts.
-
-1.  Token issuance and trading should comply with government regulations
-
-2.  Any kind of asset (tangible or intangible) may be transferred on the blockchain in the form of tokens.
-
-Regulation is the focus of security tokens. For example, in the United States, its issuance is subject to regulation by the SEC and other relevant bodies. Their subjects are also constrained by federal law. In general, security tokens must be registered with the SEC (except for exemptions which meet certain terms, such as Reg A+, Reg D, and Reg S, etc.) and observe all rules of securities laws. Regulation will push up issuance and transaction cost, and increase the threshold for participation in such tokens.
-
-
-
-Although regulation has increased cost of issuance, the advantages of security tokens are clear:
-
-1.  Lower investment and trading thresholds. For example, a valuable office building can theoretically be split into infinite units using security tokens, greatly reducing the investment threshold and allowing anyone to participate.
-
-2.  Higher asset liquidity. For example, in a private fund with a closed period of 10 years, investors can only recover their investment after that time. But if the fund is tokenized, the investors can buy and sell fund shares at any time, improving asset liquidity.
-
-3.  Lower issuance costs: issuance fees and time costs of traditional IPOs are extremely high, accounting for 4-7% of the total fund raised. With STOs, the cost will be greatly reduced.
-
-4.  Reduced regulatory costs: the costs and difficulty of regulation are reduced through programmatic sequencing, breaking down the barriers between regulators and between countries, making cross-border asset trading more convenient.
-
-5.  Increased market efficiency: because the token can be sold and traded worldwide (as permitted by regulation), asset pricing becomes more equitable, and price discovery becomes more efficient, making the token more attractive to investors.
-
-6.  More financing channels for SMEs: more than 650,000 companies are created each year in the US alone, but Wall Street, Silicon Valley and angel investors do not provide sufficient capital for startups. Therefore, regulated and security tokens issuance, or Security Token Offerings (STOs), can help SMEs find new financing channels.
-
-
-
-# Chapter II – Background and Design Objectives of Hashgard
-
-## 2.1 Background
-
-Hashgard project was officially launched in March 2018, but its genesis can be traced back to exploration and research by its main team members on blockchain technology in 2013. This took forms including technical research on blockchain network architecture and open source code, development and verification of smart contracts based on Ethereum, early conception and incubation of blockchain projects, and establishment and management of token funds.
-
-Through long-term research, the Hashgard team eventually discovered that existing public blockchains could not satisfy application cases in the financial industry. The reasons included the following:
-
-1.  The performance of most public blockchains is far from meeting the concurrency requirements of the financial system. For example, Bitcoin can only process seven transactions per second, and Ethereum can only do a few dozen.
-
-2.  The user learning curve for most public blockchains is high, and user-friendliness needs to be improved. For example, Ethereum's smart contracts must be written in Solidity, and the smart contracts of EOS need to be written in C/C++. These languages are difficult for most users to learn and master.
-
-3.  Most public blockchains lack cross-chain capability, flexible scalability, and interoperability with other public blockchain tokens, and are unable to support component-based functional modules.
-
-4.  Most public blockchains are too free, and not subject to regulation. However, the financial industry itself is strongly regulated, so regulator and regulatory observer nodes will need to be considered in large-scale commercialization.
-
-## 2.2 Design Objectives
-
-Hashgard team is building a blockchain network better adapted for the financial industry, promoting the production and development of distributed financial products and commercial applications. We believe that the future financial blockchain should have the following features:
-
-1.  Capacity for financial-level trading
-
-2.  Support token issuance for corporate
-
-3.  More flexibility and scalability for future expansion
-
-4.  Support cross-chain interoperability
-
-5.  Compliance with the requirements of financial regulations
-
-## 2.3 Use Cases
-
-Hashgard is designed to support applications of DeFi.
-
-### 2.3.1 Decentralized Mining
-
-Incentives are essential for the new born network , especially in the DeFi world. The DeFi Farming has enabled a real decentralized token issuance. In the DeFi Farming, the users  are not required to pay for tokens. On the contrary, the users are locking or trading assets with the protocol to gain profits. In this way, tokens are distributed to the real users instead of those speculators, so as to realize on-chain governance. All DeFi protocols in the Hashgard ecosystem support DeFi Farming to fully incentivize the community.
-
-### 2.3.2 Decentralized Governance
-
-Decentralized Finance is explained in two dimensions. Firstly, executing unchained business to enable transparency and credibility. Secondly, the decentralized governance system. The Governance Token holders proceed the voting right concerning the modifications of the core parameters. We believe that the value of the DeFi Governance Token mainly stems from the locking assets of the protocol. In the future, as the assets value grows, the governance of the DeFi community will inevitably become indispensable. On the one hand, it is for the security, and on the other hand it is a process of checks and balances. All this will bring premium to the Governance Token. The mature infrastructure enables Hashgard DeFi protocol to issue its own Governance Token so as to build a completely Decentralized Governance system.
-
-### 2.3.3 Decentralized Transactions
-
-The Token liquidity is a core issue for DeFi. Among many mechanisms, AMM is favoured as it provides Tokens infinitive liquidity regardless of the volume. Currently, the protocols such as uniswap are gaining recognition. However, many shortcomings can’t be ignored, including the inability to customize the assets ratio in the liquidity pool and the lack of incentive Tokens. The decentralized exchange protocol encoded in Hashgard can resolve these problems. We will add the charging function in the Dex protocol to benefit the developers.
-
-### 2.3.4 Decentralized Loan
-
-The emergence of DeFi makes permissionless financing possible. Compared with the traditional loan, decentralized loan is featured with globalization, no deadline, and easy access, which characterize inclusive finance. Developers can build a decentralized money protocol in Hashgard with transparency and credibility. Users are required to lock tokens to be eligible for borrowing, and the loan is released based on certain proportions of locked Tokens. This protocol has an incentive mining mechanism which allows users to gain profits by taking loans.
-
-### 2.3.5 Decentralized Stablecoins
-
-There exist lots of high-quality assets in Defi. However, they cant be used as daily currency because of the great price volatility. Hashgard public chain supports the establishment of a GARD staking platform through which anyone can stake GARD to generate a CDP(Collateralized Debt Position) where the users lock their assets. It allows users to generate a decentralized stable coin. A stable coin equals a debt, which will lock up the assets until the user can repay.
-
-### 2.3.6 Decentralized Lottery
-
-The annual market size of the global lottery industry is estimated to exceed US$450 billion, of which online lottery accounts for about 10%. However, equality is a severe issue. Currently, Hashgard already reached cooperation with leading players in the lottery field. The Blockchain technology will bring creative innovation to the existing lottery industry with distributed ledgers, distributed storage, and on-chained random numbers, Auto-executable smart contracts, information tamper resistance. These technical features help improve the transparency and traceability of the lottery industry during its sales, drawing and redeem. It is strongly believed that Blockchain technology will push forward the lottery industry by guaranteeing its equality and transparency.
-
-### 2.3.7 Decentralized Funds
-
-The Hashgard public chain supports the construction of a decentralized Token fund. The raising, investment, management, and withdraw are all executed on the chain. Token Fund managers can issue tradable Token certificates which represent the fund shares. Token Funds are essentially a multi-assets fund pool, and can be connected with other DeFi protocols to provide the best interest rate liquidity and achieve self-balance. Users can also make passive investments through it. Hashgard ecosystem will provide off-chain management tools based on hService protocol, such as net value calculation, fund accounting, transaction settlement, valuation, management fees and carry accrual, etc. Therefore, Token fund managers are able to establish and manage funds at a very low cost and reduce credit risks at the same time.
-
-
-
-## 3.1 Technical Foundation
-
-Hashgard is developed on Cosmos-SDK, an open source framework written in Golang. Tendermint is used in its network and consensus layers. It is designed to make it easy for developers to create customized and interoperable blockchain applications on Cosmos network. Cosmos SDK emphasizes both security and flexibility, making extensively use of the “Object-Capability Model” and “Principle of Least Privilege.” Cosmos SDK has two management rules, as follows.
-
-1.   Object A can only send messages to object B when object A is associated with object B.
-
-2.  If object A receives a message related to object C, object A becomes associated with object C.
-
-As a result of the two rules, only through an existing association chain can one object become associated with another. In short, "only connectivity can produce connectivity."
-
-The Cosmos network consists of different independent and parallel blockchains, each of which runs through a classical Byzantine fault-tolerant consensus such as Tendermint. Blockchains on Cosmos are called “zones,” some of which are also called “hubs.” Different zones can communicate with each other through their shared hubs.
-
-Cosmos Hub is the first hub in the Cosmos network, and is mainly used for cross-chain access (such as money transfers and service calls, etc.). If a blockchain is connected to the hub through the IBC Protocol, it automatically gains access to other chains also connected to the hub. All cross-zone token transfers must pass through Cosmos Hub, so the tokens can be transferred between zones safely and quickly. No direct exchange capability is required between zones; rather the total number of tokens held in each zone is tracked and recorded through Cosmos Hub to ensure that the total number of tokens held by all zones remains constant. Cosmos Hub fulfills a function akin to central bank settlement.
-
-IRIS Hub is another hub in the Cosmos Network. IRIS has new semantics allowing cross-chain computing power calls through IBC, and also integrating the distributed file system IPFS, which is particularly important for commercial applications.
-
-Ethermint provides the EVM module, allowing users to run smart contracts on Tendermint
-
-PBFT consensus.
-
-### 3.1.1 Network Architecture
-
-![framework_en](pics/framework_en.png)
-
-As shown in the diagram, Hashgard has a similar topological structure to Cosmos and IRISnet. It is a blockchain zone for the financial industry based on Cosmos. On the basis of the Cosmos SDK, Hashgard has developed a completely new framework for finance through which traditional financial institutions can quickly migrate their business to the blockchain world for rapid development and deployment, creating new business application scenarios without the need to deeply understand the underlying technology. Companies with high requirenments on security and reliability can also directly use Hashgard and the packages released on it to build and deploy their own independent chains to run their own applications.
-
-Hashgard Financial Service Framework includes three types of services.
-
-1.   System native services refer to services built within Hashgard and provided by the underlying blockchain infrastructure. These include money transfer, multiple signature, deposit, pledge, proxy voting, token issuance, and atomic swap protocols.
-
-2.   Smart contract services refer to services deployed on Hashgard through smart contracts, such as security token and asynchronous price discovery protocols. Hashgard will provide subsequent smart contract services for users by integrating multiple virtual machines.
-
-3.   External interface services refer to services provided externally through the hService protocol. Service providers interact with users through input/output messages such as real-time financial data and audit report for institutional users.
-
-### 3.1.2 Consensus Mechanism
-
-Like other networks in Cosmos, Hashgard uses Tendermint as its consensus layer. After Castro and Liskov introduced the Practical Byzantine Fault Tolerance (PBFT) algorithm in 1999, Tendermint was Jae Kwon’s first PoS adaptation. This section is cited from Tendermint official website.
-
-![consensus](pics/consensus.png)
-
-“*BFT-based PoS protocols pseudo-randomly assign a validator the right to propose new blocks during a multi-round voting process. However, committing and finalizing blocks depends on a supermajority* *—* *a >⅔ quorum* *—* *of all validators signing off on the proposed block. This may take several rounds, or polkas, before blocks become finalized. BFT systems can only tolerate up to a ⅓ of failures, where failures can include arbitrary or malicious behaviour.*
-
-
-
-*Tendermint consists of two chief technical components: a blockchain consensus engine and a generic application interface. The consensus engine, called Tendermint Core, ensures that the same transactions are recorded on every machine in the same order. The application interface, called the* [*Application Blockchain Interface (ABCI)*](https://github.com/tendermint/abci)*,* *enables the transactions to be processed in any programming language.*
-
-*At the core, Tendermint works as a round-based voting mechanism which makes the consensus protocol. A round is broken up into a three-step process through which validators propose blocks, signal commitment intent and then sign to commit new blocks. This mechanism yields a secure state replication machine for atomic broadcast with an added layer of accountability* *—* *safety faults are perfectly attributable in Tendermint.*
-
-
-*Tendermint consensus algorithm begins with a set of validators. Validators maintain a full copy of the blockchain and are identified by their public keys. They take turns proposing blocks at each new block height. There is at most one proposer per voting round. Each proposal is signed by a validator’s corresponding private key so that the validator responsible for it can be identified if some failure were to occur. The rest of the validators then vote on each proposal, signing their votes with their private keys. This constitutes a single round. But it may take several rounds before a new block is committed due to network asynchrony.*
-
-
-
-*Validators may fail to commit a block for a number of arbitrary reasons; i.e., the current proposer may be offline, or a network may be experiencing latency. Tendermint allows a validator to be skipped. Validators wait a small amount of time to receive a complete proposal block from the proposer before voting to move to the next round. This reliance on a timeout is what makes Tendermint a weakly synchronous protocol, rather than an asynchronous one. However, the rest of the protocol is asynchronous, and validators only make progress after hearing from more than ⅔ of the validator set. As such, Tendermint requires 100% uptime from a supermajority of its validators because if ⅓ or more are offline or partitioned, the network may halt.*
-
-*Assuming less than ⅓ of the validators are Byzantine, Tendermint guarantees that safety will never be violated* *—* *that is, validators will never commit conflicting blocks at the same height. Therefore, a Tendermint-based blockchain never forks.”*
-
-
-
-### 3.1.3 Cross-chain Interaction
-
-Cross-chain interaction is an important function we expect to realize on Hashgard, making seamless transfer between fungible and non-fungible tokens possible. Hashgard plans to use the Inter Blockchain Communication (IBC) protocol of Cosmos to realize cross-chain interaction between main chains, but it is important to note that it can only be used when both chains have finality. Bitcoin however does guarantee finality, and Ethereum will not guarantee it until it evolves to Casper.
-
-## 3.2 System Native Services
-
-### 3.2.1 Transfer
-
-In Hashgard network, a user can sign randomly hashed digital signatures by transferring a number of tokens to another user to prove that the act is initiated by himself, completing the payment. The signature verifies that the transfer was initiated by the user themselves. If the result is verified, it is added to the chain, leaving an irrefutable, undeletable, and immutable record.
-
-### 3.2.2 Multi-signature
-
-Two or more users may authenticate a message body together through a digital signature, called multi-signature. In other words, multi-signature is achieved through combination of single signatures. Hashgard includes a native multi-signature account type consisting of several ordinary accounts. This mechanism allows the signature weight of the ordinary accounts and the multi-signature operation threshold to be set up, thereby mitigating risks and improve security.
-
-### 3.2.3 Recording
-
-Storing data on blockchain can be costly, and the technical characteristics of blockchain determine that the volume of data anchored on it cannot be too large. Therefore, institutions do not record all of the data on the chain, but rather digest it to obtain digital fingerprints. The hash values are calculated using the Merkle Tree algorithm to reduce data volume. Finally, the hash is written into the chain, which is equivalent to storing the data in an immutable transaction, completing the recording process. This process, which we call anchoring, actually anchors the chain of traces of the records to the blockchain. Blockchain-based records make effective use of the computing power of the blockchain network to enhance credibility, making electronic data verifiable, traceable, and reliable.
-
-### 3.2.4 Deposits
-
-Hashgard allows users who are unable to build validators to delegate their tokens to active validators, to share their block production rewards and participate in community governance.
-
-For redemption, tokens must be locked for a period of time before they can be released and circulated freely. If any hidden dangers are found affecting asset security, such as instability of an active validators, the delegator can immediately transfer the token to other active nodes.
-
-### 3.2.5 Proposals and Voting
-
-Hashgard network operates in a decentralized manner, which requires a complete set of management mechanisms to coordinate various activities on the chain. Hasgard supports three types of proposals: text, parameter changes, and software upgrades. The proposal and voting process is as follows.
-
-1.  Proposal submission
-
-2.   Pledged token deposit (voting starts after the pledges reach a sufficient amount)
-
-3.  Voting
-
-All active validators are responsible for voting on the proposal. If an active validator fails to vote immediately, it automatically lose its active rights for a period of time, called the absenteeism penalty period (usually a week).
-
-The delegator automatically inherits the voting rights of the delegated active validators. If it disagrees with the delegated node, it can vote separately to cover the weight of the voted representative. Tokens not linked to the delegated validators have no voting weight.
-
-Any user can initiate proposals, each of which requires a certain number of GARD tokens as a deposit (the minimum proposal deposit) to prevent malicious users from launching spam proposals to attack the network.
-
-Users can vote in four ways: “agree,” “oppose,” “abstain,” and “strongly object.” When counting votes, only the votes of active validators and the users they represent are calculated. If the voting rate is lower than the minimum percentage, the result is "failure," and the system punishes the non-voting nodes. If more than one-third of the votes are "agree," the result is "success," unless more than one-third of the votes are "strong objection," in which case it fails.
-
-### 3.2.6 Token Lock-up
-
-Hashgard supports the token lock-up function, financial institutions and users can lock up tokens for a limited period of time in financial activities. It has following features:
-
-1. Hashgard supports this native function from the bottom of the blockchain. It is simple, secure and efficient. Users need to set the token type, amount and lock-up time of the token.
-
-2. Information is transparent and available for inquiry.
-
-### 3.2.7 Fungible Token Issuance Protocol (HRC10)
-
-Hashgard supports the issuance of fungible utility tokens with similar functions to the well-known ERC20 token of Ethereum, but with following features.
-
-1. Token issuance is supported from the bottom level of the blockchain, rather than using smart contracts. Users only need to call the standard system interface to issue tokens instead of using solidity or other languages. Given the many security vulnerabilities in Ethereum smart contracts, we realize that user-customized smart contracts contain high potential security risks. To reduce risks, user programming for standard functional components should be minimized.
-
-2.  The creator of a token is called its owner. This user has ownership of the token and can modify and configure its parameters.
-
-### 3.2.8 Atomic Swap Protocol (HRC11)
-
-An atomic swap protocol allows exchange of two or more cryptocurrencies on a peer-to-peer basis without requiring either party to trust the other, or mediation through a trusted third party.
-
-Before the atomic swap protocol, major centralized trading protocols (such as exchanges and financial service institutions) had weaknesses inherent in the information-based trading model:
-
-1.   Most of the costs were passed on to users
-
-2.  Exchanges acted as a single point of system failure
-
-The model also required each party to rely on institutions to facilitate transactions and reverse them in the event of disputes. Due to the lack of transaction finality, the transaction parties inherited the costs of mediation for the need of trust extension.
-
-In Hashgard, using atomic swaps protocol provided by the underlying system, any user can initiate a transaction without trusting or even knowing the other party, and exchange their own tokens for those of the other party's. The transaction either succeeds or fails. No loss is ever caused by only one side paying.
-
-The atomic swap protocol allows two or more participants to exchange cryptocurrencies on an equal footing without extending trust to third-party arbitrator. Programmatic custodian minimizes the need for, and cost of trusted third parties. Through atomic swaps, users and their counterparties can avoid unnecessary fees and minimize counterparty, settlement, and custodian risks.
-
-The atomic swap protocol shows that the following points can be achieved through disintermediation and the digital currency revolution.
-
-1.  Users can own and deploy their own financial service programs (with no requirement on trusted third party)
-
-2.  Users have complete control over assets through the whole transaction process (i.e. decentralization)
-
-3.  Stronger P2P liquidity of tokens in the blockchain network (reduced transaction costs)
-
-### 3.2.9 Deposit Protocol (HRC12)
-
-In Hashgard, users (called box owners) can create a "deposit box," acting as a timed deposit service in a bank. Other users (called box "investors") can add tokens of a specified type and limited number into the box to obtain certificates, using which the investors can receive the principal back with corresponding interest upon deposit maturity. Issuer can set whether the certificate can be traded and transferred and whether the principal and interest are the same token type.
-
-For example, box owner A creates Box 1, specifying acceptable token type AA. The minimum amount accepted is 1000 AA and the maximum amount is 10,000 AA with total interest rate of 1000 BB and deposit term of 10 days. Therefore, after creating Box 1, owner A needs to deposit 1000 BB to activate the box. After investor B deposits 2000 AA into Box 1, the box reached its minimum required amount. Investor B will be given a certificate (named AA-1). Upon its maturity, the system automatically converts the certificate in investor B's account into 2000 AA and 200 BB as interest.
-
-### 3.2.10 Future Payment Protocol(HRC13)
-
-FutureBox is a system native special payment box that can be set to pay different amounts of tokens for different users at multiple times. And you can set whether the payment certificate has a trading function. User deposits ones own token to the FutureBox and sets the account address, amounts to be paid, payment time and whether to support the receivable certificate trading function. After the setting is completed, the receiving account will get a receivable certificate. It can be traded according to the issuer's settings. Upon expiration, the system will automatically convert the user's receivable certificate into a 1:1 spot token. Forward payment protocol can be used in financial areas such as bonds, checks, futures and other application scenarios.
-
-### 3.2.11 Alias Service Protocol (HRC14)
-
-In the blockchain world, wallet addresses are composed of random letters and numbers, making them difficult to understand. A native alias service protocol simplifies payment and generates more application scenarios, in order to facilitate migration of traditional financial enterprise users to Hashgard.
-
-A Hashgard account alias is a series of letters and numbers from 8 to 20 characters: for example, "charelie1234" or "taalic5566". Aliases with less than 8 characters are reserved for future expansion.
-
-Any user can choose a customized account alias with a fee and point it to another address, or transfer it to another user. Once the alias is set up, the user can use it to make payments in the system. For example, after a user points the alias "taalic5566" to the address gardABCDEFGHIJKLMNOPQRSK, subsequent payments by any other user can be released to the user's address in the main network just by using "taalic5566".
-
-### 3.2.12 Dividend Allocation Protocol (HRC15)
-
-Hashgard system provides a native BonusBox with a dividend allocation function, allowing for snapshots at a certain block height, allocating dividends to users holding certain token types.
-
-This function can be used for:
-
-1. Airdropping new tokens to users
-2. Allocating dividends to token holders
-3. Company dividends to shareholders
-4. Paying interest to token holders
-
-For example, supposing the total circulation of ABC token is 100 million, the issuer of another token DEF (known as the distributor) hopes to airdrop to all ABC token holders at a ratio of 100:1 on December 1, 00:00 a.m. The distributor must put 1 million DEF into the box and set up the airdrop before that time. On December 1, the system automatically records each user's ABC holdings, and the corresponding DEF token amount becomes available through a prompt in the user’s “my wallet.” Users can click on the "get" button to receive the airdrop.
-
-
-
-## 3.3 External Interface Services
-
-In the future, Hashgard will implement the hService interface, through which external service providers can serve Hashgard users. The protocol itself does not limit the services to a decentralized implementation, as long as the provider listens and processes the incoming request message and sends the result back to Hashgard. Providers can also set their own prices.
-
-In the future, Hashgard Foundation will maintain a set of profiles for all external hService service providers, through which users can select the ones they consider appropriate.
-
-External providers must use the Hashgard token GARD as the unit of their pricing.
-
-## 3.4 Smart Contract Services
-
-In the future, Hashgard will provide users with smart contract-based services through integrated virtual machines. Developers preferring to use smart contracts can provide services to users in this way.
-
-## 3.5 Economic Model
-
-### 3.5.1 Basic Idea
-
-We believe that in the distributed business world of the future, tokens will represent the right to use capital or resources, rather than ownership. The difference between the two is something we have deeply considered.
-
-In the single token model with constant quantity, the economic utility of the token is represented by both pledging and trading. As more scenarios focus on the token, it becomes more liquid, but at the same time, people have less incentive on staking. The greatest problem is that this liquidity weakens the security of the network, allowing potential attackers to pool the necessary number of tokens needed to attack a proof of stake system.
-
-For example, suppose a user holds 5% of the total circulating token supply, and less than 15% of the total circulation is staked. The user can then initiate a 33% attack (the Byzantine fault tolerance limit) on the network on their own. This scenario is not impossible, because under the single-token model, the utility of tokens in circulation is broader than that of staked. Through unintentional user action, the single token model in essence amplifies the security risk of the entire network.
-
-In contrast to that model, if PoS/DPoS mainnet is divided into tokens specialized in certain functions, it becomes separate from the functional range represented by different tokens. Equity tokens are used as collateral, while utility tokens are used for transaction, both of which are organically combined through the ecosystem. This setup would reduce the potential attacks on the entire network, and the price of equity tokens rises due to the reduced liquidity of the equity token, making it more expensive for users to initiate a 33% attack.
-
-Besides, capital and physical resources differ fundamentally in a variety of ways.
-
-First, capital is non-consumable, while resources are consumable. For example, if user A transfers RMB 100 to user B in cash or over the Internet, the total amount of capital does not decrease. If the money is transferred over the Internet, though, server and network bandwidth are consumed, although the amount is very small. Capital, meanwhile, is not reduced unless people actively destroy it (similar to writing off a share), but people “consume” physical resources all the time.
-
-Second, additional capital costs little or nothing for the issuer. For example, the central bank prints money to increase currency, or a company may issue new shares. But an increase in physical resources requires real efforts. For instance, new optical fiber is needed if bandwidth is insufficient, or new servers are required if a CPU is full. Supply may increase by the same amount, but the cost is completely different.
-
-Third, pricing of capital is extremely subjective, and strongly influenced by market sentiment. For example, although share price volatility is anchored by distributable profits, it is still volatile, and can even rise sharply without logic. For example, when Trump was elected as President of the US, a stock called "Chuanda Zhisheng" (which sounds like “Trump won”) surged; when the hit TV series “Ode to Joy” was playing, stocks of "Red Star Development," whose name is similar to the company Tan bought on the show, hit the upper limit for three consecutive days. This is especially true for most cryptocurrencies, which are not backed by real assets. The pricing of physical resources is objective for the most part because users buy them for use (and price fluctuations are still subject to supply and demand).
-
-Fourth, we expect the main use of capital to be for holding it, reducing circulation to add value; but consumption is more for usage.
-
-For the above reasons, we believe that the future trend for public blockchains using PoS/DPoS will be to separate the equity utility tokens representing capital, and the utility tokens representing physical resources, to finally realize a "multi-token system."
-
-### 3.5.2 Design Objectives
-
-The core purpose of equity tokens is to protect the security of consensus on the main network of blockchain, not to as payment for fees. Therefore, equity tokens should be characterized as relatively low liquidity. They can also be treated as part of the virtual hardware, as with ASIC (dedicated computing) devices in POW. The reason entities obtain them is to participate in network maintenance. Validators should be strongly incentivized to use their equity tokens for long-term staking. They are rewarded for providing consensus and improving security across the network.
-
-Gas tokens are secondary utility tokens with core purpose of trading. Therefore, they should have higher liquidity.
-
-Through research, we have set this design principle as one way to achieve a well-designed, secure Proof of Stake network.
-
-We expect the Hashgard economic model to achieve the following:
-
-1.  Reward for validators maintaining network stability
-
-2.  Relatively stable and predictable development and operation costs for large-scale network applications
-
-3.  Zero or little network cost for active users, while also stimulating the interest of "lurkers"
-
-4.  Continuous rewards for open source code contributors and developers of the public blockchain
-
-In addition, the cost of using blockchain is often directly linked to the value of the tokens and transaction activity on the chain. The value of a token usually increases with increased usage of the blockchain network, and usage cost of the blockchain network increases significantly when traffic surges, which also is not counting the effect of secondary market transactions on usage cost. Uncontrollable operating costs are unacceptable in any business model.
-
-Therefore, to better meet the needs of both Hashgard project and ordinary users, the economic model we have designed aims for usage/transaction costs to be directly affected as little as possible by price/activity fluctuations.
-
-At the initial launch of Hashgard main network, the expected transaction density is not high, so that transaction fees will not rapidly increase temporarily. At the same time, in the initial stage, GARD equity tokens held by Hashgard Foundation will be delegated to reliable validators, providing consensus and greater security for the entire network, to prevent a 33% attack.
-
-At this time, we believe that the dual-token model still needs more thorough discussion and scenarios. Hashgard will initially adopt a single token model, ensuring a more stable network and reducing a potential sunk costs in the future. Subsequently, when a consensus is reached on community governance, a gas token will be added to the main network, gradually turning it into a more effective multi-token system.
-
-The following discussion is based on the single token economic model.
-
-### 3.5.3 Token Types
-
-Hashgard tokens include system-level and application-level tokens. GARD is a system-level token corresponding to the blockchain operations such as the use of system rights, public network resources, public computing resources, and public storage resources for transfers, enterprise token issuance, and applications building. Application-level tokens are independently created by developers and may be used in associated DApps.
-
-It’s up to app developers to choose token types for payment.
-
-### 3.5.4 GARD System-level Tokens
-
-GARD is a system-level token, serving as a medium for value transfer and representing usage rights for the entire system to achieve rapid value circulation within the ecosystem. Its five purposes are:
-
-1.  User apply to be validators or hService service providers by staking
-
-2.   Participate in governance through delegation
-
-3.   Fees to the system or applications
-
-4.  Block producing rewards for active validators
-
-5.   Ecosystem contribution
-
-10 billion GARD tokens were issued and would be distributed as follows:
-
-| Ratio | Amount      | Purpose                                                      | Release Plan                                                 |
-| ----- | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 6.5%  | 650 million | Early incubators                                             | Released after a year of   listing                           |
-| 30%   | 3 billion   | Strategic investors and partners                             | 50% released upon listing, and   the other 50% released 6 months after. |
-| 10%   | 1 billion   | Founding team members                                        | Tokens will   be released 6 months after mainnet launch over 24 months. |
-| 3.5%  | 350 million | Held by the Foundation for   scientific research and advisors | Released as needed                                           |
-| 10%   | 1 billion   | IP contribution team                                         | Will be locked for a year after   listing (7/12/2018)        |
-| 40%   | 4 billion   | Allocagted to   Foundation for R&D, marketing and ecosystem building. | 10% will be   allocated for community awards/market promotions, 10%-15% for R&D, and   15%-20% for ecosystem building. |
-
-> Note: The latest turnover of GARD is displayed on official announcements
-
-## 3.6 Consensus and Governance Structures
-
-From the perspective of the open source spirit, Hashgard is not owned by its early development team, nor, following formal source opening and main network launch, will the team and the Foundation be the only people developing and maintaining the network. As a part of the main network launch, the early team and Foundation will propose governing structures and decision-making processes aimed at supporting the continuous development of the ecosystem.
-
-Although decentralization is the fundamental concept of blockchain, it would face a reaction lag when making major decisions, and the discourse tends to be controlled by nodes. (This problem is more significant in the PoS model). For the moment, even with blockchain, it is overly idealistic to aim for complete decentralization.
-
-The crux of Hashgard governance architecture design is to find a balance on decentralization. The governance architecture is able to make proper adjustments according to the actual situation at different ecosystem development stages. Governance architecture is a clearly defined mechanism to coordinate any changes to the blockchain such as system parameters, software updates, and constitutional amendments.
-
-### 3.6.1 Stakeholders
-
-Stakeholders refers to holders of GARD equity tokens, some of whom play specific roles such as active validators and candidate nodes. Stakeholders can be persons with legal identity or anonymous individuals, companies, governmental organizations, non-profit entities, or other organizations. The voting mechanism design ensures full coverage of all stakeholders in the ecosystem.
-
-### 3.6.2 Validators
-
-In the classic practical Byzantine fault-tolerant algorithm (PBFT), each node shares the same weight. Hashgard validators are related to the voting rights they hold. Those holding considerable voting rights are called active validators, which take turns to submit new blocks and sign their names. Nodes which only synchronize blocks instead of producing them, are called candidate nodes. Election of validators is dynamic. Only when the candidate nodes’ staked equity ranks among the top of the number of active nodes allowed by the current network, do they become validators. Active validators can produce blocks, receive awards, and vote on proposals on behalf of delegators. Note that any users can initiate a proposal, as long as their token deposits reach the activation threshold. However, only votes coming from active validators and their delegators are counted.
-
-Holders of GARD equity tokens are able to become validators by signing and submitting a self-binding transaction. They must set their commission ratio, maximum ratio, maximum daily commission variation, and minimum quantity of self-deposit (showing their ability to take risks. All pledged equity is released if the number of self-pledged modes falls below the set number). The maximum number of active validators is set during network initialization, and may be modified later through proposals and governance. Anyone may apply to become a validator, and nodes’ total equity is equal to the sum of their self-pledged and commissioned equity. Only when a node’s total equity ranks among the top *n* of the network (where *n* is the maximum active number currently allowed), can it become a validator, and take part in block production and governance. If it no longer ranks in the active validators queue, it is no longer be allowed to produce blocks. Delegators can manually transfer their delegated equity to other active validators.
-
-The active node selected to propose the subsequent block is called the proposer. Each proposer is elected by clear means, at a frequency related to its total equity ratio (total equity = self-pledged equity + delegators’ equity). For instance, if the active validators have total pledged equity of 10 billion GARD, and the total equity of one of them is 1 billion GARD, there is then a 10% chance that it will be selected as the next proposer.
-
-Hashgard validators costs include:
-
-1.  Hardware costs (servers connected to internet, backup servers, hardware security modules for signatures, and firewalls that operate on top of applications)
-
-2.  Operating costs (to attract more delegators)
-
-3.  Asset holding costs (self-pledged GARD)
-
-
-
-|                                    | *Active Validators* | *Candidate validators/Full validators* |
-| ---------------------------------- | ------------------- | -------------------------------------- |
-| Maximum number                     | 21                  | /                                      |
-| Synchronization of complete blocks | Yes                 | Yes                                    |
-| Block production                   | Yes                 | No                                     |
-| Proposal votes counted             | Yes                 | No                                     |
-| Penalty for reduction              | Yes                 | No                                     |
-
-
-
-### 3.6.3 Delegators
-
-Delegators are GARD holders unable or do not desire to be a validator. They participate in governance such as online voting through delegation to active validators, and get block production rewards. Their corresponding active validators exercise voting rights on their behalf. A non-delegated token has no voting rights.
-
-### 3.6.4 Commissions
-
-Rewards received by the equity pool of an active validator are split between the node itself and delegators. The former can reward itself with a set percentage of the proceeds it receives from their delegators as commission. Each validator can freely set its initial commission, maximum daily change ratio, and maximum limit for commission. Hashgard requires each validator to explicitly set these parameters, which can only be set when the campaign is announced, and these parameters can only be further restricted after the announcement.
-
-### 3.6.5 Block Production Rewards
-
-Hashgard production rewards are granted in proportional to the total equity of active validators, which means that each still maintain the same weight even if every active validator is rewarded upon block production. The block generation rewards are subsidized by Hashgard Foundation for the first year. Additional GARD will be issued in the future to cover the rewards.
-
-For example: Suppose that the block production reward at a certain height is 30,500 GARD, and there are three active validators with equal shares.
-
-The active validator proposing the block, or the "proposer"(self-pledges account for 20%, and pledges by delegators account for 80%):
-
-- Receives a reward pool of 30,500/305%*105%=10,500 GARD (5% more for the proposer)
-- Proposer's commission: 10,500*80%*5%=420 GARD (validators can set up their own commission, which is 5% in this case)
-- Proposer's total rewards: 10500*20%+420=2520 GARD
-- Total rewards for delegators of the proposer: 10,500*80%-420=7,980 GARD (each delegator gets a portion of rewards proportional to their equity ratio)
-- Two active validators that did not propose blocks, or "non-proposers" (self-pledges account for 20%, pledges by delegators account for 80%), each:
-- Receives a reward pool of 30,500/305%*100%=10,000 GARD
-- Non-proposers’ commission: 10,000*80%*8%=640 GARD (each non-proposer’s commission is 8% in this case)
-- Non-proposers’ total rewards: 10,000*20%+640=2640 GARD*
-- Total rewards for delegators of the non-proposers: 10,000*80%-640=7,360 GARD (each delegator is rewarded in proportion to their equity ratio)
-
-### 3.6.6 Fee Allocation
-
-Users must pay certain fees when using Hashgard in order to prevent DDOS attacks. The default token for it is the native token GARD, but new token types can be added through community proposals and voting. The fees are calculated as follows:
-
-```
-fee = gas * gasPrice
-```
-
-Gas is determined through transactions, and is used to measure the computing and storage consumed. The amount of gas required may differ by transactions types: transfers and delegations may consume less resources; while token issuance and forward payments may consume more, and thus require more gas.
-
-The minimum gasPrice threshold set by each node may differ. Only when the minimum threshold is reached is the transaction placed in the transaction pool of validators to await packaging into a block. Gas, block size as well as the number of transactions packaged, has an upper limit. With frequent on-chain transactions, the gasPrice increases, and the possibility of being packaged into blocks increases. Users must set a reasonable gasPrice when initiate transactions. Validators set appropriate minimum gasPrice thresholds to filter out spam transactions.
-
-Fees are distributed to validators in a way similar to block production rewards. Block proposers can receive additional rewards according to the system’s proportional allocation.
-
-When an active validator is selected to propose the next block, it must obtain a certificate signed by at least 2/3 of the equity value of the current block.  Nevertheless, there is still an incentive to reward signing of certificates over the 2/3. The reward is linear: if the proposer contains 2/3 of the license signatures (the minimum block validity value), the ratio is 1%, and if the proposer gets 100% of the signature licenses, the ratio is 5%.  Of course, proposers should not wait too long to make proposals. Other active validators may time out, and long waits can cause proposal delays. In this way, the proposer must find a balance between waiting time to get the most signatures, and loss of proposal rights for the next block. The purpose of this mechanism is so the proposer doesn’t propose empty blocks, maintaining a better network between active validators, and mitigating censorship.
-
-For example, there are 10 active validators with equal equity share. A block with a gas fee of 3,350 GARD is produced now, of which 30% (1,005 GARD) is allocated to the active validators. Suppose the proposed block contains signatures of 100% of the active validators. The proposer can then receive an additional 5% fee reward. Thus, for the reward for each active validators R: 9*R+R*105%=1,005 ⇔ R=1,005/10.05=100 GARD
-
-The active validators proposing the block, or the "proposer" (self-pledges accounts for 20%, pledges by delegators account for 80%):
-
-- Receives a reward pool of 100*105%=105 GARD (the proposer gets an additional 5%)
-
-- The proposer's commission: 105*80%*1%=0.84 GARD (validators can set up their own commission, which is 1% in this case)
-
-- The proposer's total rewards: 105*20%+0.84=21.84 GARD
-
-- Total rewards for the proposer's delegators: 105*80%-0.84=83.16 GARD (each delegator is rewarded in proportion to their share of equity rights)
-
-- The nine active non-proposing validators, or "non-proposers" (self-pledges account for 20%, pledges by principals account for 80%), each:
-
-- Receives a reward pool of 100*100%=100 GARD
-
-- Non-proposers’ commission: 100*80%*1%=0.8 GARD (each of the nine non-proposers charge 1% commission in this case)
-
-- Non-proposers’ total rewards: 100*20%+0.8=20.8 GARD
-
-- Non-proposers’ principals’ total rewards: 100*80%-0.8=79.2 GARD (each principal is rewarded in proportion to their share of equity rights)
-
-
-### 3.6.7 Hashgard Improvement Proposals (HIP)
-
-Hashgard is a community-based open source blockchain project and has a long-term evolution mechanism similar to that of Bitcoin, called Hashgard Improvement Proposals (HIPs).
-
-HIPs are design documents that provide information to the Hashgard community or describes new functions, processes, and environments for Hashgard. HIPs should contain a concise technical specification and the basic principles of the function. We hope that HIPs become the primary mechanism to present new functions, collect community opinions on issues, and record Hashgard improvement decisions.
-
-After establishing community consensus, recording different opinions, and refining their own views and ideas, the HIP author is responsible for forming a HIP draft document and submitting it to the Hashgard Foundation for review. The draft must describe the problem/requirements and clearly explain the solution and the main idea in canonical form. It is recommended that each draft includes a single idea rather than multiple ideas, which will help focusing the discussion during review. This phase is called the Draft phase. Under normal circumstances, the Foundation would not directly reject the HIP draft unless it’s duplicate, the idea or solution excessively rough, the technology is problematic, or the HIP is not consistent with the concept and vision of Hashgard.
-
-The Foundation periodically initiates votes for HIP drafts of type “text” on the Hashgard network. HIP drafts which pass community votes are accepted as HIP proposals, to which the Foundation assigns unique HIP numbers which are published on GitHub. Developers in the Hashgard communities can be provided open source code for accepted HIP proposals. The Foundation takes all factors into consideration to recommend the most appropriate implementation schemes, and rewards HIP authors and best proposal implementers. The best implementation scheme would be put on the Hashgard test network for full testing. If the vote passes, it enters the Accepted stage; if it is voted down, it enters the Rejected stage.　
-
-After fully validating the implementation scheme on the Hashgard test network, the Foundation initiates a vote for the HIP proposal, implementation code, and test report, of vote type “software upgrade.” The HIP proposal voted by the community will be included in the next version of Hashgard, and activated for the entire network when the next version is deployed. When the vote passes and the HIP proposal is included in the latest version, it enters the Final stage. If an HIP proposal which has passed the vote cannot be included in the next version, it enters the Deferred phase, waiting for the appropriate version. If the vote fails, it enters the Rejected phase.
-
-After the new version of Hashgard is activated, if the HIP has no problems and the network runs normally, the HIP proposal is archived. The HIP proposal enters the Active phase.
-
-If the new version of Hashgard has problems or the network behaves abnormally after activation, the entire vote rolls back. In the event of serious problems, the Foundation initiates an emergency rollback, so that Hashgard quickly reverts to the previous stable version. The HIP proposal then enters the Replaced phase and shifts to the Accepted phase. After the repair, the HIP proposal enters the test network to be re-verified.
-
-### 3.6.8 Governance Committee
-
-The decentralized blockchain operation mechanism gives the Foundation a unique governance structure.
-
-Hashgard Foundation Ltd. (Singapore) is a non-profit organization dedicated to the development, governance and advancement of the Hashgard ecosystem. The Governance Committee is its governing body, responsible for formulating major strategies and selecting of the heads of various functional committees. It is elected by stakeholders with clear identity and GARD voting rights.
-
-## 3.7 Ecosystem
-
-![ecosystem_en](pics/ecosystem_en.png)
-
-### 3.9 Strategic Consultants
-
-Shen Bo
-
-Founding Partner of Fenbushi Capital. Mr. Shen is a pioneer in the blockchain field and is the founder of BitShares and FBS Capital. He is also an expert in traditional finance with decades of extensive investment experience in securities, hedge funds and investment banking.
-
-Kevin Wu
-
-Founding Partner and CEO of PreIPO Capital Partners. Mr. Kevin Wu received a double degree in Engineering and Economics from Shanghai Jiaotong University, and then obtained an MBA degree from University of Southwestern LA. He has taught at the School of Management of Shanghai Jiaotong University since 1987 and served as Assistant to the Mayor of Nanyang City, Henan Province. He began to work in securities investment consulting and investment banking since 1992. Since 1995, he specialized in venture capital and private equity investment in Wall Street. In 2002, he returned to China to establish PreIPO Capital, and served as an EMBA guest lecturer at Peking University, Tsinghua University, Fudan University, Shanghai Jiaotong University, Zhejiang University, etc., and was employed as an economic advisor to several local governments and the United Nations Industrial Development Organization.
-
-Sunny Lu
-
-Co-founder and CEO of VeChain. He graduated from Shanghai Jiao Tong University with a major in Electronics and Communication Engineering. He has been served as IT Executive in Fortune 500 companies over 13 years, former CIO of LV China. he has extensive experience in information systems and technology strategy and management, enterprise digital revolution and digital innovation, and a solid technical background in the field of computers, networks, and communications. Mr. Lu is dedicated to transform blockchain technology into viable applications and demonstrating the advantages of blockchain to the world to promote the development of blockchain technology. The VeChain project was launched in 2015 and is dedicated to blockchain technology promotion and commercial launch.
-
-David Lee
-
-Prof. Lee is a professor at Singapore University of Social Sciences and is the deputy chairman of the Singapore Society of Economics. He is the founder of several other institutions, including the American College of the Left Bank, the Liberal Institute of Finance, and Ferrell Financial Group in Singapore. Prof. David Lee served as a managing director of several listed companies, and was also the chairman of the board of directors or a non-executive director of several listed companies. The book "Digital Currency" compiled by Prof. David Lee was published by Elsevier and received the American Library Association's Outstanding Reference Book Award..
-
-Bai Shuo
-
-Former Chief Engineer of Shanghai Stock Exchange. Mr. Bai is a senior professional in blockchain industry. He graduated from Peking University with a Ph.D. in Science and was a former associate researcher, researcher, doctoral supervisor, software director, and chief scientist of software in the Institute of Computing Technology, Chinese Academy of Sciences. Since 2000, he has participated in the formation of the National Computer Network Emergency Response Technical Team / Coordination Center of China (CNCERT/CC). Later he joined Wanxiang Blockchain Lab as an advisor and also served as the director of the ChinaLedger Technical Committee. Mr. Bai has rich experience in theoretical research and technical practice in the field of blockchain. He has introduced the impact of blockchain technology on traditional financial services at many events.
-
-Zhang Min
-
-Managing Partner of Heli Investment. Mr. Zhang is the managing partner of Heli Investment and once worked as a director of investment at Morningside Group, focusing on early equity TMT investments. Heli Investment was established in 2012 and is headquartered in Shanghai. The investment team manages a number of RMB and U.S. funds, and the investment business covers early-stage venture capital investments and medium-term growth investments.
-
-Haifeng Xi
-
-Former CTO of WanCloud, co-founder of IRISnet. Senior technical expert, entrepreneur.He received a Bachelor's degree and a Master's degree in automation control from Tsinghua University and a Master's degree in electrical and computer engineering from the University of Maryland. He has won many awards during his six years at IBM. He also holds a US invention patent and has published several professional papers in several academic journals. Prior to joining Border Intelligence, Mr. Xi also served as the CTO of WanCloud, a subsidiary of Wanxiang Blockchain Co., Ltd., which was established in early 2017..
-
-Eva Foo
-
-Founder of Scry.info. Graduated from University of Electronic Science and Technology of China and Sorbonne University in Computer Science and Physics. She joined the China Red Alliance when she was in high school. She created a game studio and sold it to Tencent when she was in college. Later she established a game and software development company and led the project of a mobile product to obtain a monthly turnover of more than 15 million US dollar. In 2014, she established Xcener Blockchain, which is committed to helping farms raise sales and support supply chain finance agricultural trading. It has served more than 3,800 international agricultural companies across 17 countries. In August 2017, she established the SCRY.info blockchain data protocol layer.
-
-Gong Ming
-
-Founder of CYBEX & ChainB. Mr. Gong, known as "Bao Zou Gong Qin Wang", is the founder of decentralized digital asset exchange Cybex, the global blockchain incubator Longhash, and the founder of ChainB (the largest Chinese blockchain media). In 2012, he began promoting the development of digital currency and blockchain industry, translated and wrote a large number of related materials and white papers on blockchain projects, and participated in the writing of "blockchain society" and "blockchain-new economic blueprint", "Digital Currency" and other books.
-
-Huawei Kong
-
-Senior engineer, Director of the Institute of Computing Technology at Chinese Academy of Sciences, Shanghai Branch and Partner of IStart VC. He studied physics at Peking University and Zhejiang University. He was the Chief Scientist of Zhangjiang S&T Investment Corp., and VP of Dawning Information Industry Co., focused on the research of supercomputing and grid computing technologies. He is an expert in regional innovation ecosystem and an entrepreneurship mentor of the Ministry of Science and Technology, and initiated innovative organizations such as ITALK Salon and IC Coffee. Mr. Kong is an in-depth researcher and participant in blockchain industry. In 2013, he served as Technical Consultant of Yibite and was the author of "The Evolution of Digital Currency". He is currently the Scientific Advisor at Canaan.
-
-Cindy Deng
-
-Associate Professor in Finance at SHUFE. She graduated from Nanyang Technological University in Singapore with a PhD degree in Finance. Currently working at Shanghai University of Finance and Economics as the director of Corporate Finance Department and associate professor in Finance, her current research direction is cryptocurrency pricing and governance issues in the blockchain. From Jan. 2018, as a visiting scholar, she studies governance issues in the blockchain at the Columbia Business School.
-
-## 3.10 Partners
-
-SlowMist
-
-SlowMist, top cybersecurity company in China. It focuses on blockchain ecosystem security and was established by a team with more than ten years of cybersecurity attack and defense experience. The team has provided security services to Google, Microsoft, W3C, Ministry of Public Security, Tencent, Ali, and Baidu, etc. Many achievements of the team have also been recognized by global hacking conferences such as Black Hat. In March 2018, its security team successfully disclosed a billion-dollar digital asset theft caused by a defect in the Ethereum ecosystem.
-
-Primas
-
-Using blockchain to solve problems brought by the internet economy such as fake news, plagiarism, copying, clickbait, low-quality content, Primas' original Distributed Trusted Content Protocol (DTCP) will bring dependable, high-quality information back to the internet and reshape its content value ecosystem. We believe that disseminating high quality information created from wisdom and emotion will promote the development of society.
-
-FINWEX
-
-Committed to becoming the world’s leading advisory service provider for Fintech and blockchain and a think tank leader, FINWEX’s subsidiaries include the world's top financial technology summit FINWEX SUMMIT, the blockchain think tank FINWEX INSTITUTE, with business including ratings, indices, consulting, training, and the FINWEX LABS incubator. The team consists of experienced financial market experts and blockchain industry veterans. Core members come from top blockchain, consulting, finance, and Internet companies.
-
-Scry.info
-
-Scry.info is the world's first open source blockchain underlying protocol, aiming to build a blockchain application community to share mutually beneficial results, so that everyone can become a builder and beneficiary of the community.
-
-Math Wallet
-
-Math Wallet is a mobile wallet app incubated by MediShares, supporting ETH, NEO, and EOS tokens and smart contracts. It supports a variety of biometric technologies such as facial, voiceprint, and live biometrics to ensure asset security.
-
-MyToken
-
-MyToken is the most popular market information platform in the Chinese market, with more than 1.3 million users and 250,000 daily engagements. The client version covers multiple terminals, such as iOS, Android, HTML5, Mac, and Windows, and it is also the first application that novices need to download.
-
-Loopring
-
-Loopring is a next-generation decentralized transaction matching protocol with not only a set of open smart contracts to execute transactions and matching operations, but also a group of off-chain participants to match and broadcast orders. Loopring protocol uses decentralization technology to provide a zero-risk token exchange model, allowing multiple exchanges to compete for the same order for off-chain matching and on-chain settlement.
-
-
-
-# Chapter IV – Legal Affairs and Risk Statement
-
-Singapore Hashgard Foundation Ltd. makes no representations or warranties regarding Hashgard and the GARD token except as expressly stated in this White Paper and on the official website. Anyone who participate in GARD token sales program and make procurement are based on their own knowledge about Hashgard project and GARD token, laws and regulations, and information in this White Paper. Without prejudice to the generality of the foregoing, all participants will accept GARD token as it is after the Hashgard public chain project is launched, regardless of its technical specifications, parameters, performance or functionality.
-
-Since targets and and content listed in this White Paper may be changed and some contents of the document may be adjusted in the new White Paper or other documents as the project progresses, the team will make updates available to the public by posting a notice on the website or updating the White Paper or other documents.
-
-Singapore Hashgard Foundation Ltd. hereby expressly disclaims and refuses to accept the following liabilities:
-
-1.    Where anyone breaches any state’s anti-money laundering, anti-terrorism financing or other regulatory requirements in exchanging GARD token;
-
-2.   Where anyone violates any statement, guarantee, liabilities, commitment or other requirements herein in exchanging GARD token, leading to failure or withdraw GARD token;
-
-3.   Where GARD token’s sales plan is abandoned for any reason
-
-4.    Where there are failures to development or abandonment of Hashgard, and consequent inability to deliver or use GARD token;
-
-5.  Where the development of Hashgard is postponed or delayed, as a result of which the scheduled agenda that has been disclosed fails to progress as scheduled;
-
-6.    Where there are errors, flaws, defects or other problems with Hashgard and its token source code;
-
-7.    Where there are shutdown, breakdown, paralysis, rollback or hard fork of Hashgard and its token;
-
-8.    Where Hashgard or GARD token fails to achieve any specific function or is not suitable for any specific purpose;
-
-9.    Where funds raised by GARD token sales plan are used;
-
-10.  Where the information relating to the development of Hashgard fails to be disclosed in a timely and complete manner;
-
-11.  Where any participant who leaks, loses or damages the GARD token’s wallet private key
-
-12.  Misconduct, violation, infringement, server collapse and crash, service termination or suspension, fraud, misuse, mistake, negligence, bankruptcy, liquidation, dissolution, or close of business of the third-party distribution platform for GARD token;
-
-13. There is a difference, conflict, or contradiction between contents agreed upon by any person and the third-party platform and that of this white paper;
-
-14.  Any person’s trading or speculation of GARD tokens;
-
-15.  Where GARD token is listed, suspended, or delisted on any trading platform;
-
-16.  Where GARD token is classified as or deemed to be a currency, security, commercial paper, negotiable instrument, investment or other items for being prohibited, regulated or limited by any government, quasi-government agency, authority or public body;
-
-17.  Any risk factors disclosed in this White Paper and any damages, losses, claims, liabilities, penalties, costs, or adverse effects caused or accompanied by such risk factors.
-
-In addition, there are risks not mentioned or anticipated by Singapore Hashgard Foundation Ltd. and the team. Within the maximum scope permitted by applicable laws, for the damage and risks caused by participation, including but not limited to direct or indirect personal damage, loss of business profits, loss of business information, and other economic losses, the Hashgard Foundation and team will not bear any liability. The participants shall fully understand the background of the team before making a decision, know the integrated framework and thinking of the project and participate rationally.
-
-
-
-
-
+<center> 2019年3月  <center>
+Hashgard Foundation Ltd.           
 
 
 
 
 ------
 
-[*[1\]*](#_ftnref1) *Interchain Foundation. (2017, November 17). Consensus Compare: Casper vs. Tendermint. Retrieved May 15, 2019, from https://blog.cosmos.network/consensus-compare-casper-vs-tendermint-6df154ad56ae*
+
+
+
+
+
+[TOC]
+
+
+
+
+# 第一章  区块链：是社会实验，也是金融革命
+
+## 1.1 区块链技术的发展历史
+
+　　1982年，大卫·乔姆（David Chaum）提出了不可追踪的密码学网络支付系统。1990年，他将此想法扩展为最初的密码学匿名现金系统，即Ecash。
+
+　　1998年，戴伟（Wei Dai）发表论文阐述了一种匿名的、分布式的电子现金系统，他将其命名为b-money。
+
+　　1998年，在戴伟论文发表的同时，尼克·萨博（Nick Szabo）发明了Bit gold，构建出一个产权认证系统。哈尔·芬尼（Hal Finney）则把该机制完善为一种可重复利用的工作量证明。
+
+　　2008年，中本聪在论坛发表了《Bitcoin: A Peer to Peer Electronic Cash System》，首次提出区块链的概念，并在随后由此构建了比特币区块链网络。从2009年被创建至今，比特币区块链网络一直稳定运行，完美实现了数字资产从发行到流通的全过程。与此同时，区块链作为基础底层技术，逐渐衍生出更多应用场景，随之也诞生了更多不同类型的数字货币。
+
+　　2015年，随着以太坊开源项目正式上线，智能合约的概念带给人们更多的想象力。以太坊网络通过一套图灵完备的脚本语言提供了完整的自由度，实现了多种数字资产及智能合约的注册和转移，方便了数字货币的发行和流通，极大程度地丰富了数字货币的使用场景。
+
+　　区块链技术的迅速发展，使得数字货币逐渐走入大众的视线。特别是从2017年初开始，通过ICO这一全新形式，各种项目通证层出不穷，带来了数字货币市场新一轮的繁荣。在2017年底，这股热浪达到高潮，业内外人士纷纷表示区块链技术将成为继移动互联网之后下一个风口浪尖。同时，大量的金融和科技行业的项目、从业者积极拥抱区块链。
+
+
+
+## 1.2 区块链对传统金融体系的冲击
+
+　　随着技术的创新与发展，金融服务的业态不断演进。在过去的50年中，电子化的金融数据替代了手工记录，并开启了信用卡时代，终端的普及带来了ATM时代，而互联网和移动互联网浪潮则带来了电子银行和移动支付。
+
+　　今天，区块链的到来，将再一次改变一切。
+
+　　区块链将与包括大数据、AI、云计算、生物学在内的技术一同构建下一代的金融基础设施。而构建在区块链上的新一代的金融基础设施，将能够克服现行金融体系长久以来存在的问题。
+
+1. 传统中心化金融体系中，金融中介成本极高，限制了交易规模。传统金融中介机构在处理交易时，自身需要支出大量费用，同时其还需要谋求高额利润以覆盖可能存在的信用风险。由于成本极高，金融机构在使用传统金融中介服务时，往往会设置最小交易规模，例如最小存款金额、跨境转账最小额度、股票基金交易最小数量等等，这使得大量且高频存在的小微交易无法进行。而区块链被称为信任的机器，作为一种分布式账本技术，不需要第三方中介，能够帮助金融机构省去巨额的中介成本。成本的大大降低，使得点对点之间的小微交易成为可能。
+
+2. 传统中心化金融体系中，欺诈用户的事件时有发生。现行金融体系的大量交易并不是“原子化”的，而是由中介机构承担了担保主体的职责，这也给了交易任意一方恶意违约、欺诈以可乘之机。而区块链是一种分布式的技术，基于区块链的金融系统没有单点欺诈和崩溃的风险。
+
+3. 传统中心化金融体系中，用户隐私数据和资产安全存在隐患。近年来，媒体频繁报道用户隐私数据被大量泄露的案件。目前，海量用户的个人身份、银行账号、交易记录、甚至密码等信息被挂在各类网站上明码标价的售卖，用户隐私和资产安全都受到严重威胁。而在区块链网络中，用户数据并非由中心化系统来保管，而是用户自己保管，真正实现了数据的“民主化”，从而有效保护用户隐私和资产安全。
+
+　　显然，随着区块链技术的不断发展，其分布式账本、智能合约、零知识证明、多方安全计算、同态加密等技术，能够有效的解决当前金融行业内存在的痛点，并可能衍生出新模式、新产品，从而诞生更为智能、有效、安全的金融发展生态。
+
+## 1.3 区块链 + 金融的融合与尝试
+
+　　现阶段，区块链在跨境支付、资产管理、法定数字货币、可信身份、企业内部结算、证券和资产交易等领域都有着广泛的融合与尝试。
+
+### 1.3.1 区块链 + 跨境支付
+
+　　使用区块链进行转账有低费用、实时结算、监管友好、高流动性等便利。加密货币项目瑞波已推出多种应用于银行领域的跨境支付方案，包括：xCurrent- 金融机构的实时结算通道，能够让银行间实现快捷、便利、低成本的端到端跨境转账；XRapid – 基于瑞波币(XPR)的实时结算通道，与普通国际汇款方案相比可节约40%-70%的成本；XVia- 通过网关的实时结算通道，提供了企业间支付的标准化界面产品。
+　　2019年1月，瑞波宣布其服务的跨境支付的企业数量已超过200家，包括东京三菱日联银行、瑞穗银行、法国农业信贷银行、瑞典北欧斯安银行、美国运通旗下的外汇国际支付平台、桑坦德银行等，并以每周新增2-3家客户的速度增长。随着瑞波跨境支付交易量的迅速增长，很多专家预测瑞波未来有望取代SWIFT成为跨境支付领域的巨头。
+
+### 1.3.2 区块链 + 资产管理
+
+　　目前，数字资产管理行业方兴未艾，截止2019年2月，全球一共有700个加密基金和100亿美金的管理规模。2018年11月1日，香港证券及期货事务监察委员会（以下简称“证监会”）发布《有关针对虚拟资产投资组合的管理公司、基金分销商及交易平台营运者的监管框架的声明》（以下简称“声明”）已经允许持牌基金公司将其10%以内的资产配置在数字货币市场。全球最大的基金管理之一的富达基金也于2018年成立了一家数字资产托管公司，该公司将7*24小时地提供BTC、ETH及其他加密数字货币的托管解决方案、加密货币交易执行平台和机构建议服务。
+
+### 1.3.3 区块链 + 法定数字货币
+
+　　委内瑞拉总统尼古拉斯·马杜罗在2017年12月3日的电视讲话中宣布了“石油币(Petro)”的诞生。委内瑞拉于2018年2月20号开放预购石油币，成为全球首个自己发行加密货币的国家，首日便卖得7.35亿美元。
+
+　　根据Petro白皮书，委内瑞拉政府预计发行1亿枚、价值约600亿美元的石油币，并将在加密货币交易所上架。委内瑞拉政府将接受以石油币作为缴税、费用、捐款、公共服务手续费的支付方式，且委内瑞拉国营原油公司PDVSA、以及其他国有企业也会参与石油币的销售和购买。
+
+　　马杜罗表示，新货币将得到委内瑞拉储备的石油，汽油，黄金和钻石的支持，石油币将帮助委内瑞拉“在货币主权问题上前进”，而且这将能够为国家提供“新形式的国际融资”。马杜罗希望借由发行加密货币的创举，对抗美国经济制裁，带领国家走出泥淖，摆脱恶性通货膨胀，帮助委内瑞拉摆脱严峻的经济危机，包含还清债务、增加必需品和原物料进口，也能绕过美国政府向委内瑞拉祭出的经济制裁，让美国个人和委内瑞拉企业恢复生意往来。
+
+　　除委内瑞拉之外，多国正加紧研究基于区块链技术发行法定数字货币。如新加坡金管局与德勤共同推出Ubin项目以实现对新加坡元(SGD)进行数字化改造，加拿大央行也推出了基于Jasper的数字货币项目CAD-coin，中国央行成立数字货币研究所组织专家研究法定数字货币，马绍尔群岛将发行自己的加密货币，与美元一起作为法定货币进行流通；随着技术的不断发展，我们相信未来将有越来越多的国家使用区块链技术构建自己的数字货币。
+
+### 1.3.4 区块链 + 可信身份
+
+　　加拿大初创公司SecureKey联合IBM于2018年初，推出基于区块链的全国范围内身份验证系统。新的数字身份系统利用了IBM的区块链技术，让消费者能够通过手机和Windows设备向政府、银行和电信运营商证明自己的身份；允许消费者在访问服务时使用APP来确认其身份的详细信息，如实际年龄或信用评分；网络消费者在申请新的公寓或新款手机时也无需亲自签定文件或提供其他身份证明文件。区块链身份认证系统让消费者能够控制和分享他们的个人信息，而不需要通过集中的系统来创造“价值”的信息，并且这些信息很容易受到黑客的攻击。据悉，多伦多道明银行、加拿大皇家银行以及其他一些大型金融公司已经在该计划中投资了3000万加元（约合2350万美元）。
+
+### 1.3.5 区块链 + 企业通证
+　　2019年2月，美国最大的商业银行摩根大通宣布计划在自己的私链平台Quorum上发行自有数字货币JPMCoin。JPMCoin以1：1的比例与美元挂钩，该机构将利用其强大的资金储备来保证该通证的稳定性。JPMCoin为企业间的资金流动而设计，早期应用主要体现在大型企业客户的跨境支付、证券交易、取代美元。但目前还只是一个模型，仅有少量机构客户参与测试。与此同时，另一个互联网巨头Facebook也悄然布局加密货币。
+
+### 1.3.6 区块链 + 资产交易
+　　2018年12月，美国纽约证券交易所(NYSE)的母公司洲际交易所(ICE)创立的数字资产交易平台Bakkt宣布完成了首轮融资，从12名合作伙伴与投资者中筹集了1.83亿美元的资金。
+
+　　Bakkt一定程度上是利用ICE的交易基础设施，为比特币期货交易能够被更广泛接受提供新的基础设施：包括该行业的第一个机构级别的受监管的交易平台和提供实物交付和存储的清算和储蓄服务。
+
+　　芝加哥期权交易所(Chicago Board Options Exchange)和芝加哥商品交易所(Chicago Mercantile Exchange)都在交易比特币期货合约，这些合约不是通过交割实际的加密货币，它们是根据比特币价格的变动以现金结算的。因此，实际上，它们是一种押注加密货币未来价格的工具。而Bakkt实行的是实物交割，且没有保证金交易。
+
+　　Bakkt正在建立一个开放、无缝的全球网络，使用户能够简单、安全和有效地购买、销售、存储和使用数字资产。Bakkt还希望通过让消费者从刷信用卡转向扫描他们的比特币APP，利用比特币简化和颠覆零售支付业。市场机会是巨大的，全世界的消费者每年要支付高达25万亿美元的信用卡或网上购物费用。
+
+　　《财富》杂志也表示，“ICE进军加密货币交易领域可是件大事。它可是金融产业中历史悠久、受人尊重、力量极为强大的机构参与者。”
+
+### 1.3.7 区块链 + 证券通证
+
+　　关于证券类通证，目前尚没有明确的定义，但根据业内的普遍理解，可以简单定义为符合监管的资产通证化(Tokenization)，这个定义主要包含两点：
+
+1. 通证的发行和交易需要符合政府相关机构的监管；
+
+2. 各类资产（有形和无形资产）在区块链上以通证的形式流转。
+
+　　监管是证券类通证的重点。以在美国发行证券类通证为例，证券类通证需要接受SEC及其他相关机构的监管，发行证券类通证的主体也将受到联邦法律的约束，通常而言，证券类通证还需要在SEC注册（满足特定条款而豁免的除外，如Reg A+, Reg D, Reg S等），并需遵守证券法的种种规定。监管行为将推高证券类通证的发行和交易成本以及参与门槛。
+
+　　虽然监管带来的发行成本有所上升，但证券类通证的优势十分明显：
+
+1. 降低投资和交易门槛：比如一幢价值不菲的写字楼可以使用证券化通证拆分成理论上无限小的单位，大大降低投资门槛，任何普通人都可参与。
+
+2. 增强资产流动性：比如一个封闭期为10年的私募基金，投资人只能在10年后才能收回自己的投资，但如果将基金通证化，那么投资人可以随时买卖基金份额，实现资产的流动。
+
+3. 更低的发行成本：传统的IPO发行费用和时间成本极高，站到募资额的4-7%。而采用STOs的方式，成本将大大降低。
+
+4. 降低监管摩擦成本：通过监管程序化的方式，降低监管成本与难度，打破监管机构之间、国家之间的壁垒，使资产在不同国家和地区之间的交易更加便捷。
+
+5. 提高市场效率：因为这些通证可以在世界范围内销售和交易（只要符合规定），资产的定价将更加公平，价格发现机制更有效率，因此对投资人具有吸引力。
+
+6. 扩大中小企业融资渠道：仅在美国，每年就创建了超过65万家公司，但是华尔街，硅谷和天使投资者没有为创业公司提供足够的资金。因此，受监管且符合要求的证券类通证发行或STO(Security Token Offering)可以帮助中小型企业获得新的融资渠道。
+
+------
+
+ 
+
+# 第二章  临界的产生背景与设计目标
+
+
+
+## 2.1 临界的产生背景
+
+　　临界(Hashgard)项目正式启动于2018年3月，但团队主要成员对于区块链技术的探索与研究最早可以追溯至2013年，参与的形式包括：对区块链网络架构与开源代码的技术研究、基于以太坊的智能合约开发与验证、多个优秀区块链项目的早期构思与孵化、区块链数字资产基金(Token Fund)的设立与管理等等。
+
+　　在长期的研究中，临界团队逐步发现，现有的区块链公链体系无法满足金融行业的使用，其原因包括：
+
+1. 多数公链的性能难以达到金融系统的要求，例如比特币每秒仅能处理七笔交易，以太坊也只有几十笔交易，远远不能满足金融系统的并发量需求；
+
+2. 多数公链的使用门槛较高，用户友好度亟待改善，例如以太坊的智能合约需要使用Solidity语言编写，EOS的智能合约则需要使用C/C++语言编写，对于绝大多数用户来说，这些语言难以学习与掌握；
+
+3. 多数公链缺少跨链能力与灵活的扩展机制，与其他公链通证的交互能力差，且无法支持引入组件化功能模块；
+
+4. 多数公链过于自由，不受监管的约束，而金融行业本身是强监管属性，实现大规模商用的同时，需要考虑监管节点以及监督性质的观察者节点。
+
+## 2.2 临界的设计目标
+
+　　临界团队致力于打造一条更适用于未来金融行业的智能区块链网络，从而助力更多分布式金融产品与商业应用的产生与发展。我们认为未来的金融区块链应当具备如下特性：
+
+1. 满足金融级别的交易能力；
+
+2. 支持企业通证的发行；
+
+3. 拥有更为灵活的扩展性； 
+
+4. 支持与其他区块链的跨链交互；
+
+5. 监管友好，满足金融监管的需求。 
+
+## 2.3 临界网络的核心理念
+
+　　临界网络从设计上，全面支持去中心化金融的应用。
+
+### 2.3.1 去中心化的挖矿
+
+激励对于一个新兴网络至关重要，特别是在defi世界里。Defi领域的流动性挖矿（defi farming）实现了真正的去中心化token发行。在 DeFi 农场内，用户不会直接为挖矿代币付费。相反，用户是在向协议提供资产，用资产的机会成本赚取收益。这种方式能够让真正参与产品的用户持币，从而达到链上治理的目的。Hashgard生态里的defi协议都将支持流动性挖矿的模块，以充分调动社区的积极性。
+
+### 2.3.2 去中心化的治理
+
+去中心化的金融分为两个部分，一方面是业务上链，实现透明可信，另一方面是治理系统的去中心化，实现资产和权力的对等。治理代币的持有者拥有投票权，能够对协议修改治理规则的提案进行表决。DeFi治理代币的价值主要源于项目本身锁定的资产规模，未来，随着defi上锁定资产的规模增长，DeFi社区的治理需求必然扩大，一方面是为了维护协议本身的安全，一方面也是各方博弈的过程，这都将为治理代币带来溢价。Hashgard公链上的defi协议都可以借助链上的基础设施来发行自身的治理代币，构建完善的去中心化治理体系。
+
+### 2.3.3 去中心化交易
+
+Defi的世界里，链上资产的流动性是一个核心问题。在众多机制中，自动做市商机制（AMM）占据了一席之地，无论代币的订单簿规模有多大，或者流动性资金池有多小，它都能提供流动性。目前，以uniswap为主的协议正在获得市场的认可。然而，uniswap协议天然还存在很多的缺陷，包括其资金池资产配比无法自定义，缺乏代币激励等。Hashgard中构建的去中心化交易协议会解决这些问题，我们也会在Dex协议中添加收费模块，帮助协议开发者获益。
+
+### 2.3.4 去中心化借贷
+
+Defi的出现让全球无需许可的借贷融资变成了可能。相比中心化的借贷，去中心化的借贷更具有普惠金融的属性，全球化，无期限，低门槛。开发者可以在Hashgard中构建一个去中心化的货币市场协议，类似于一个透明可信的当铺。拥有资产的用户可以质押资产以获得借款资格，然后按照一定的比例可以抵押借贷出资金。这个货币市场协议拥有一个激励挖矿的机制，让用户甚至可以通过贷款来获取收益。
+
+### 2.3.5 去中心化的稳定币
+
+Defi网络里有很多优质资产，但因为价格波动性太大，没法当作日常货币来使用。作为为Defi而生的公链，Hashgard公链支持建立一个资产抵押的平台， 任何人都可以通过该平台用GARD抵押资产生成一个抵押债仓。该抵押债仓保存用户资产，并允许用户生成一个去中心化的稳定币。一个稳定币就是一个债务，将会锁定资产，直到用户偿还后才能取回资产。
+
+### 2.3.6 去中心化的彩票
+
+全球博彩业的年收入估计超过 4,500 亿美元， 其中在线博彩约占总数的 10％，然而其中公平性是一个很大的问题。目前，Hashgard在彩票领域已经拥有了占据市场领导地位的合作伙伴，我们的区块链技术将会为现有的彩票行业带来创造性的革新，利用分布式账本、分布式存储、链上随机数、自动执行的智能合约、信息公开不可篡改等技术特性，提升彩票行业在销售、开奖、兑奖环节中的公开性和可追溯性。相信区块链技术能够有效地保障彩票行业的公平性与透明性，从而推动彩票行业进一步向前发展。
+
+### 2.3.7 去中心化的基金
+
+Hashgard公链上支持构建一个去中心化的基金，把基金的募、投、管、退上链，基金经理可以发行通证作为持有基金份额的凭证，凭证持有者可以进行链上交易。基金本质上是一个多资产的资金池，同时可以和其他Defi协议打通，以提供最佳利率的流动性，实现自我平衡，用户还可以通过它进行被动式投资。临界网络的生态系统将为去中心化基金提供基于hService协议的一系列链外管理工具，如净值计算、基金会计、交易结算、业绩计算、管理费和carry的计提等。基于这些模块，基金的管理人可以很低成本地建立和管理基金，并降低对手方信用的风险。
+
+------
+
+
+# 第三章  临界网络概述
+
+## 3.1 技术基础
+
+　　临界网络基于 Cosmos-SDK 开发。Cosmos-SDK 是使用 Golang 语言编写的、网络层和共识层使用 Tendermint 的开源框架，它被设计成能让开发者在 Cosmos 网络上轻松创建定制化的，可相互操作的区块链应用程序。Cosmos SDK 同时兼顾安全与灵活两项特性，广泛使用了“Object-Capability Model”（对象能力模型）与“Principle of Least Privilege”（最小权限原则）。Cosmos SDK建立起了两条管理规则：
+
+1. 只有在对象A与对象B相关的情况下，对象A才可以给对象B发送消息；
+
+2. 如果对象A收到了一条包含关联到对象C的消息，对象A就关联到了对象C。
+
+　　作为这两条规则的结果，只有通过一条已有的关联链条，一个对象可以关联到另一个对象。简而言之，“只有连通才能产生连通”。    
+
+　　Cosmos网络由不同的独立、平行区块链组成，其中的每条区块链都通过 Tendermint 这样的经典拜占庭容错共识运行。Cosmos上的区块链称为“分区(zone)”。其中的一些分区又称为“枢纽(Hub)”，不同的分区可以通过共享的枢纽来互相通信。
+
+　　Cosmos Hub 是第一个在 Cosmos 网络里的枢纽(Hub)，主要用于跨链访问（如转账、服务调用等），如果区块链通过 IBC 协议连接到枢纽，将会自动获得到其他连接至枢纽的区块链的访问能力。所有跨分区的通证转移都需要通过Cosmos Hub进行，因此通证可以安全、迅速地在分区之间转移。分区之间无需具有直接的汇兑流动性，而只需通过Cosmos Hub来追踪记录每个分区持有的通证总量，并确保所有分区的通证总量不变。Cosmos Hub起到了一种类似中央银行结算功能的作用。
+
+　　IRIS Hub是另一个在Cosmos Network里的枢纽，IRIS设计了新的语义，允许通过IBC调用跨链计算资源，同时集成了分布式文件系统IPFS，这对商业应用尤为重要。
+
+　　Ethermint 提供了 EVM 的模块，允许用户在 Tendermint 的 PBFT 共识之上运行智能合约。
+
+
+### 3.1.1 网络架构
+
+![2019-03-27-033742](pics/2019-03-27-033742.jpg)
+
+　　如图所示，临界网络在设计上具有与Cosmos、IRIS相似的拓扑结构，临界网络是基于Cosmos所开发的，专为金融行业所服务的区块链分区(zone)，并在Cosmos SDK基础之上开发出了令人耳目一新的临界金融服务能力框架，传统金融企业可以在无须知晓与了解区块链底层技术的情况下，快速将自己的业务迁移到区块链世界里面来，实现快速开发与部署，并创造出全新的业务应用场景。对于安全性与可靠性有极高要求的金融企业，也可以直接使用临界网络与发行包构建和部署自己的独立链，来运行自己的应用。
+
+　　临界金融服务能力框架里面包括三类服务：
+
+1. 系统原生服务，指内置于临界网络之中，由区块链底层代码提供的服务，例如转账、多签、存证、抵押、委托投票、通证发行协议、原子交换协议等等。
+
+2. 智能合约服务，指通过智能合约形式部署于临界网络之上，通过编写智能合约向用户提供的服务，例如证券类通证协议、异步价格发现协议等等。临界网络后续将通过集成虚拟机的方式向用户提供智能合约服务。
+
+3. 外部接口服务，指通过hService协议向临界网络提供服务的外部服务提供商，服务商与用户通过Input/Output消息的方式进行交互，例如数据提供商向用户提供的实时金融数据服务，或者审计机构对企业用户提供的审计报告服务。
+
+### 3.1.2 共识机制
+
+　　与Cosmos 网络里的其他网络一样，临界网络采用 Tendermint 作为共识层。Castro 和 Liskov 在1999年引入的实用拜占庭容错(PBFT)算法后，Tendermint 是 Jae Know 创建的第一个 PoS 改编版。
+
+　　Tendermint 伪随机的安排一个验证节点在多轮投票的过程中提议一个区块。但是，提交和最终化区块取决于大多数——所有验证节点所持有股权中超过2/3股权的验证节点在提交的区块中签名。在区块最终化之前可能需要进行几轮签名。BFT系统可以容忍1/3的失败，其中失败包括故障或是恶意的攻击。
+
+　　Tendermint主要包含两个主要的技术：区块链共识引擎和通用的应用接口。共识引擎被称为Tendermint核心模块，确保相同的交易在每个机器中都按照相同的顺序被记录下来。应用接口被称 ABCI(Application BlockChain Interface) 让交易可以被任何编程语言编写的程序处理。
+
+　　在核心模块中，Tendermint基于循环投票机制进行工作，这也是共识协议的原理。一个回合被分成3个处理步骤：验证者提议一个区块、发送提交意图、签名后提交一个新区块。这种机制为原子广播提供了一个安全的状态复制机，增加了一个责任层——安全故障可以完全归结于Tendermint。
+
+　　Tendermint共识算法从验证节点集开始。验证节点们都维护了一份区块链的全拷贝，并且可以用公钥来识别验证者的身份。在每个新的块高度他们轮流的提议一个区块。每轮投票都只有一个验证节点可以提议区块，并且要用相应的私钥对此进行签名，这样的话如果有错误发生就可以找到为此负责的验证节点。然后剩下的验证节点就需要对提议进行投票，投票使用自己的私钥进行签名。这些组成一个回合。不过可能因为网络的异步需要几个回合才能提交一个新块。
+
+ ![共识逻辑](pics/consensus_logic.png)
+
+　　验证节点提交块的时候由于几种原因可能会失败：当前的提议可能下线了，或者网络可能遇到了延迟。Tendermint允许验证节点可以被跳过（就是轮到一个验证者提议区块的时候但是此验证节点没有提议）。验证节点在移到下一轮投票之前等待一小段时间来接收提议人（此轮提议出块的验证节点）提议的整个区块。这种对超时的依赖让Tendermint成为一个弱同步协议，而不是一个异步协议。不过，剩下的协议是异步的，并且验证节点只有在接收到了超过2/3的验证节点消息时才会进行处理事物。正是因为这样，所以Tendermint需要大多数的验证节点可以100%正常运行，如果1/3或更多的验证节点离线或脱机，网路就会停止运行。
+
+　　假设少于1/3的验证节点是拜占庭，Tendermint保证安全永远不会被破坏——也就是说，验证节点（2/3以上）永远不会在同一个高度提交冲突的区块。因此，基于Temdermint的区块链永远不会分叉。
+
+
+### 3.1.3 跨链交互
+
+　　
+
+​	跨链交互是我们期望在临界网络上实现的重要功能，跨链交互使得同质化通证与非同质化通证的不同链之间的无缝转移与使用成为可能。临界网络计划采用Cosmos的IBC(Inter Blockchain Communication)协议实现与不同主链之间的跨链交互。但需要注意的是，IBC协议只能对转入和转出区块链都具有最终性时才能够使用，但比特币并不具有最终性保证，以太坊将来演进到Casper之后才会有最终性保证。
+
+## 3.2 系统原生服务
+
+### 3.2.1 转账
+
+　　在临界网络中，用户通过对若干通证转移给另一用户这个行为，进行随机散列的数字签名的签署，以证明此次行为是用户本人发起，这个行为即为支付。通过对签名进行检验，就能够验证此行为是用户本人发起的。验证结果为真且结果入链，则会在链上留下记录。此交易记录不可被否认，不可被删除，不可被篡改。
+
+### 3.2.2 多签
+
+　　允许两个以上的用户作为一个整体，对消息主体进行数字签名作为授权，这种特定类型的数字签名方式即为多重签名。也就是说，多重签名是通过多个单一签名的组合来完成的。临界网络内置多签账户类型，多签账户包含由若干个普通账户构成，并可设定普通账户的签名权重和多重签名的操作阈值。引入多重签名机制，可以实现分散风险、提高安全性等。
+
+### 3.2.3 存证
+
+　　在区块链上存放数据是有成本的，而且区块链的技术特性决定了在上面锚定数据体量不可能太大，因此，存证机构当然不会把全部的存证数据都入链，而是将存证数据进行摘要计算得到数字指纹，通过Merkle Tree算法来计算获得Hash值，进一步降低数据体量，最后将Hash写入链中，相当于将数据存证于一笔不可篡改的交易中，从而完成了存证的过程。这个过程我们称为锚定，其实是将存证链条锚定到了区块链上。基于区块链的存证很好的利用了区块链网络的强大算力以增强公信力，让电子数据可证明，可追溯，可信赖。
+
+### 3.2.4 抵押
+
+　　临界允许没有能力搭建验证节点的用户将通证委托给活跃验证节点，以分享活跃验证节点的出块奖励并参与社区治理。
+
+　　赎回通证操作需要在行为发起后锁定一段时间才能释放并自由流通。如果委托人发现活跃验证节点出现不稳定等影响资产安全的隐患，可将通证无延迟切换到其他活跃验证节点。
+
+
+### 3.2.5 提案与投票
+
+　　临界网络通过分布式组织来运行，这类组织要求有一套完备的管理机制，从而协调区块链上的各类活动。临界网络支持三种提案类型：文本、参数变更、软件升级。提案与投票过程如下：
+
+1. 创建提案 SubmitProPoSal
+
+2. 抵押通证 DePoSit（有抵押后进入Voting阶段）
+
+3. 投票 Vote
+
+　　所有活跃验证节点都要对提案的投票负责。如果某个活跃验证节点没能及时对提案做出投票，那么该节点就会在一段时间内自动失去活动权利，这段时间叫做缺席惩罚期（AbsenteeismPenaltyPeriod，默认为一周）。
+
+　　委托人自动继承委托活跃验证节点的投票权，如与所委托的活跃验证节点持有不同意见，可单独投票覆盖被投票代表部分的权重。未绑定委托验证节点的通证是没有投票权重的。
+
+　　任何用户均可以发起提案，每个提案都需要一定数量GARD通证作为保证金，即最低提案保证金（MinimumProPoSalDePoSit），以防止恶意用户发起垃圾提案攻击网络。
+
+​	用户对提案的投票意见有四种“同意”、“反对”、“弃权”、“强烈反对”。记票时只会计算活跃验证节点的投票以及委托给活跃验证节点的用户投票，如果投票率低于最低百分比，投票结果为“失败”，系统将惩罚未投票的活跃节点。如果超过1/2的投票为“同意”则结果为“成功”，但如果有超过1/3的投票结果为“强烈反对”则提案失败。
+
+
+### 3.2.6 同质化通证发行协议（HRC10）
+
+　　临界网络支持效用类同质化通证（Utility Token）的发行，与用户所熟知的以太坊ERC20通证功能类似，但有如下特点：
+
+1. 从区块链底层支持通证发行，而并非使用智能合约。用户不需要了解solidity或者其他编程语言，只需要调用系统提供的标准化接口，便可以以十分简便的方式部署通证。从以太坊通证智能合约所出现的诸多安全漏洞问题来看，我们意识到，让用户使用智能合约是一件具有极高安全风险的事情，对于较为标准化的功能组件而言，应该尽量减少用户的编程，能够有助于降低风险；
+
+2. 通证的创建者被称为通证的owner，该用户拥有对通证的所有权，可以对通证的可选项进行修改及配置。
+
+
+### 3.2.7 原子交换协议（HRC11）
+
+　　原子交换协议是可以在点对点的基础上实现两种或两种以上加密货币的交换的协议，交易任意一方无需信任他们的交易对手，也不需要通过可信的第三方进行调解。
+
+　　在原子交换协议出现之前，普遍的中心化的交易协议（如交易所，金融服务机构）存在着基于信息的交易模式固有的弱点：
+
+1. 将更多的成本转嫁给用户
+
+2. 充当系统的单点故障
+
+　　同时，这种模式要求各方依赖机构为交易提供便利，并在发生纠纷时逆转交易。由于缺乏交易终局性，对信任扩展的需求和交易相关方将继承中介的成本。
+
+　　在临界网络中，从系统底层提供原子交换协议，任何用户可以在无须信任对方，甚至无须知晓对方的条件下发起一笔交易，用自己的一项通证去交换对方的另一笔通证，这笔交易要么成功，要么失败，不会出现付出自己的资产，而没有收到对方资产导致损失的情况。
+
+　　原子交换协议允许两个或多个参与方对等地交换加密货币，而无需将信任扩展到第三方仲裁机构。通过程序性托管，它们将对可信第三方的需求和调解成本降到最低。用户及其交易对手可以使用原子交换来避免支付不必要的费用，并将交易对手、结算和托管风险降到最低。
+
+　　原子交换协议证明了通过非中介化和可编程货币革命可以实现：
+
+1. 用户拥有并部署自己的金融服务程序（无需可信第三方）
+
+2. 用户在交易过程中拥有资产完全的控制权（去中心化）
+
+3. 加强区块链网络中通证的P2P流动性（交易成本降低）
+
+### 3.2.8 存款与远期支付协议（HRC12）
+
+　　
+
+​	在临界网络中，用户（称之为盒子的owner）可以创建一种“存款盒子”（DespositBox），存款盒子的作用类似于银行的定期存款服务，其他用户（称之为盒子的投资人“investor”）将指定类型、限定数量的通证装入盒子，可获得一份凭证，持有该凭证的投资人可以在存款到期时，获得本金与相应的利息。
+
+　　例如：盒子的owner  A创建盒子Box1，指定通证类型ABC，最大数量为1万，日利率是0.1%，存款期限为10日，则owner A在创建Box1后，需要存入1万\*0.1%\*10=100ABC以激活盒子。investor 用户B向Box1存入500枚ABC之后，将获得一份凭证（名为ABC-1），持有该凭证到期后，系统将自动将investor B账户里的凭证兑换为505ABC（本金500ABC，利息5ABC）。
+
+　　FutureBox 是一种系统原生的特殊存款盒子，可以被看作是零利息、不限定通证类型、不限定通证数量、没有到期时间、永不销毁的存款盒子。用户在向FutureBox 中存入自己所持有的通证（我们称之为“即期通证”）并指定到期时间后，可获得一份可拆分且可转让的凭证（我们称之为“远期通证”），到期后，系统将自动为用户将远期通证兑换为1：1的即期通证。远期通证可以被使用于债券、支票、期货等应用场景。
+
+​	用户若在向FutureBox存入即期通证时选择转换为“不可拆分、不可转让”的远期通证，实质上等同于锁仓服务。
+
+### 3.2.9 分红协议（HRC13）
+
+​	
+
+​	在临界网络中，提供系统原生的具有分红功能的盒子（BonusBox），允许在某区块高度时进行快照，并向持有某类通证的用户按比例分红。
+
+　　该功能可以用于：
+
+　　（1）向用户空投新币种；
+
+　　（2）同一币种进行分红；
+
+　　（3）公司向股东分配股息；
+
+　　（4）类似余额宝的功能，给用户活期利息；
+
+　　例如，ABC通证总发行量为1亿枚，DEF的发行方（称为distributor）希望在12月1日0点对所有持有ABC通证的用户按100：1进行空投，则DEF的发行方需要在12月1日0点前将100万枚DEF通证放入分红盒子并完成设定，12月1日系统自动进行快照记录每个用户的ABC持有量，并将可获得的相应的DEF通证数额通过钱包中提示给用户。用户点击“获取”按钮即可获取分红。
+
+### 3.3.10 别名服务协议（HRC14）
+
+　　在区块链世界里面，钱包地址中夹杂着没有规则的字母与数字，十分晦涩难懂，为了方便传统金融企业用户将业务迁移至临界网络，我们在系统原生的集成了别名服务协议，以简化用户的支付，并可衍生出更多的业务场景。
+
+　　临界网络，账户别名指的是一连串的字母与数字，账户别名最短为8位，最长不超过20位，例如“charelie1234”、“taalic5566”，8位以下的别名系统保留以待后续扩展。
+
+　　任何用户均可以向系统付费，以购买一个自己喜欢的账户别名，并将其指向到另一个地址，同时，用户还可以将自己的账户别名转让给其他用户。别名一旦完成指向，用户即可以使用别名在系统中进行支付。例如，当用户将“taalic5566”别名指向到gardABCDEFGHIJKLMNOPQRSK地址，后续任何用户支付时只需要使用“taalic5566”即可发放给用户在主网中的地址。
+
+## 3.3 外部接口服务
+
+　　临界网络未来将实现hService接口，外部服务提供商可以通过hService标准协议向临界网络的用户提供服务，hService协议本身并不限定提供商是否以去中心化的方式实现，只要提供商监听与处理传入的请求消息，并将结果发送回临界网络即可。提供商可以为他们的服务自行定价。
+
+　　临界基金会未来将维护一套用于所有hService外部服务提供商的概要文件，通过这些概要文件，用户可以选择他们认为合适的提供商。
+
+　　外部服务提供商应当以临界网络GARD通证作为定价的计量单位。
+
+## 3.4 智能合约服务
+
+　　临界网络未来将通过集成虚拟机来向用户提供基于智能合约服务。偏好使用智能合约的开发人员可以通过编写智能合约来向用户提供服务。
+
+## 3.5 经济模型
+
+
+### 3.5.1 基本思想
+
+　　对未来分布式商业世界的理解里面，我们认为通证代表着资本或资源的使用权而非所有权，然而这两者有何区别，是我们一直在努力思考的问题。
+
+　　在总量恒定的单通证模型中，通证的经济效用是双重的：抵押和交易。由于更多的场景集中在这一通证上，使得通证引入了更多的流动性，但与此同时，人们抵押他们的通证所获得的激励更少了。最大的问题是，这种更大的流动性会使网络安全性变弱，允许潜在攻击者暗中汇集攻击权益证明系统所必要的通证数量。
+
+　　例如，假设某用户拥有通证总发行量供给的5%，同时如果少于总发行量的15%被抵押，该用户便可以单凭一己之力向网络发动33%攻击（拜占庭容错的上限）。这种情景并不是不可能发生，因为在单通证模型下，通证流通中的效用比抵押保证金更加宽泛。所以很不幸，虽然用户可能是无心之举，但本质上单通证模型放大整个网络的安全风险。
+
+　　和单通证模型正好相反，如果PoS/DPoS的主网划分出专门来从事某些类功能的通证，会隔离开不同通证所代表的功能区间。权益类通证单用来抵押，功能类通证用来交易，通过生态系统将二者有机的结合起来。这样，对整个网络可能发起的攻击从理论上会被缩小，由于权益通证的流动性变差，其价格升高，导致用户想发起33%攻击的代价变得更高。
+
+　　此外，资本与物理资源，在多种特性方面有着本质的区别：
+
+　　首先，资本是具有非消耗性的属性，而资源具有消耗性的属性，比如，当用户甲将100元以现金方式或者网络转账付用户乙的时候，整体的资本总量都没有减少，但是以网络方式转账的时候，消耗了服务器和网络带宽，尽管这个数量微乎其微。对于资本，除非人们主动销毁（类似于注销股份），它并不会变少，但是物理资源，人们时时刻刻都在“真实的”消耗它。
+
+　　其二，资本的增加对于发行者来说成本是微乎其微，或者接近于没有成本，例如央行印钞票增发货币，例如公司增发新的股份。但是物理资源的增加需要现实的付出，例如带宽不够用了，需要接入新的光纤，例如CPU跑满了，需要新的服务器。这两者同样的增大了供应量，但的增加成本完全不同。
+
+　　其三，资本的定价是极其主观的，价格受交易情绪的影响极大，例如股价的波动尽管有可分配利润的锚定，依然波动剧烈，甚至会因为毫无逻辑的利好关系而大涨，例如特朗普当选总统时一支名为“川大智胜”的股票大幅上涨，例如《欢乐颂》电视剧热播时，跟剧情中被老谭收购公司名称类似的“红星发展”股票连续三个涨停，对于没有大部分没有真实资产支撑的加密货币来说更是如此。但是物理资源的定价在大多数情况下客观的，因为用户购买的用途是使用（价格波动也仍受因供求关系的影响）。
+
+　　其四，对于资本，我们期望用户更多的是持有，减少流通以获得增值，但对于使用费，我们期望用户更多的去使用。
+
+　　基于以上原因，我们认为对于使用PoS/DPoS的公链来说，其未来发展趋势是将代表资本的权益类通证，与代表物理资源的功能类通证分开设计，最终实现 “多通证体系”。 
+
+### 3.5.2 设计目标
+
+　　权益类通证的核心效用是作为保护主网区块链共识安全的一个工具，且其基本效用并不来源于作为一种货币用来支付手续费。故权益类通证应该有一个比较低的流通速度和流通性。另一方面，权益类通证还可以被视为虚拟硬件的一部分，就像工作量证明中的ASIC设备（专用计算设备），得到它是为了让一个实体可以作为网络的维护者参与进来。验证者应该受到强烈的激励将他们的权益类通证作为保证金长期抵押；由于他们为整个网络提供共识和更大的安全性，他们也将因此获得奖励。
+
+　　燃料类通证是一种次级的功能类通证，其核心效用应当用于交易；所以其应当具有更强的流通性，流动速度必定更高。
+
+　　经过研究我们确定，这就是我们朝向一种精心设计的、安全的权益证明网络前进的一种方式。
+
+　　我们期望临界网络的经济模型实现如下几点：
+
+1. 对于维持网络稳定的验证节点，能够获取相应的记账收益；
+
+2. 对于大规模使用网络的应用方，能够有预估、并且相对稳定的开发与运营成本；
+
+3. 对于普通用户，我们希望网络活跃用户可以零成本或少成本的使用网络，同时也希望能够刺激“沉睡用户”的使用欲望；
+
+4. 对于公链开源代码的贡献者与服务开发者，我们希望其能够获得持续的激励；
+
+　　另外，区块链的使用成本往往与通证价值、链上交易活跃度直接挂钩。一方面，通证价值通常会随着区块链网络使用量增加而上升，另一方面，在区块链网络流量激增时，使用成本也会显著提高。这还没有考虑二级市场交易行为对于使用成本的影响。对于任一商业模式而言，不可控的运营成本都是无法接受的。
+
+　　因此，我们设计经济模型的目标是维系使用/交易成本尽可能少受到价格/交易活跃度波动的直接影响，从而使临界网络更好地满足项目方和普通用户的使用需求。
+
+　　临界网络主网上线初期，可预见的网络交易密度不高，交易手续费暂时不会产生断崖爆发式增长；同时，主网上线首年内，临界基金会所持有的GARD权益类通证将会委托给可靠的验证节点，为整个网络提供共识和更大的安全性，妄想发起33%攻击的人不可能实现。
+
+　　在这种情况下，我们认为，双币制模型尚需要更充分的探讨和场景验证。首年临界网络采用单通证模型，可以确保网络更稳定，减少未来可能产生的大量沉没成本。后续采取社区治理的方式达成共识，在主网中添加燃料通证，逐步成为更为有效的多通证体系。
+
+　　以下我们的讨论，建立在单通证经济模型的基础上。
+
+
+### 3.5.3 通证类型
+
+　　临界网络里面的通证分为系统级通证与应用级通证。GARD为系统级通证，系统级对应区块链层面的操作，如使用系统性权益、使用公共网络资源、公共计算资源、公共存储资源等进行转账、发行企业通证、构建应用等操作；应用级通证由应用开发者自主创建，在与之相关联的DAPP可能会使用到。
+
+​	应用开发者可以自行决定使用哪种通证作为支付类型。
+
+### 3.5.4 系统级通证GARD
+
+　　GARD为系统级通证，充当价值转移的媒介，并代表着整个系统的使用权，以实现生态内的快速价值流通。其用途主要包括五种：
+
+1. 用户抵押申请成为验证节点或hService服务提供商；
+2. 用户委托投票参与治理活动；
+3. 用户向系统或应用支付使用费；
+4. 活跃验证节点出块奖励；
+5. 生态建设使用；
+
+　　GARD通证初始发行100亿枚，分配如下：
+
+| 比例     | 数量    | 用途                                         | 释放方案                                                     |
+| -------- | ------- | -------------------------------------------- | ------------------------------------------------------------ |
+| **6.5%** | 6.5亿枚 | 早期孵化机构                                 | 上交易所一年之后释放                                         |
+| **30%**  | 30亿枚  | 战略合作伙伴及战略投资机构                   | 上交易所时释放50%，6个月后释放剩余50%                        |
+| **10%**  | 10亿枚  | 创始团队                                     | 主网上线后半年开始释放，分24个月解锁                         |
+| **3.5%** | 3.5亿枚 | 基⾦会持有，用于科研学术活动以及回馈专家顾问 | 根据需要进行释放                                             |
+| **10%**  | 10亿枚  | IP输出团队                                   | 上交易所⼀年之后释放                                         |
+| **40%**  | 40亿枚  | 基⾦会持有，⽤于研发、市场营销与生态建设     | 10%用于社区奖励/市场推广，10%⽤于技术研发，20%⽤于⽣态建设。根据需要进行释放。 |
+
+> 注：最新的GARD通证流通量请见官方公告
+
+## 3.6 共识及治理结构
+
+　　从开源精神的角度来说，临界网络并不归属于早期团队所有，当临界网络正式开源并完成主网上线之后，临界早期团队、临界基金会也不是其唯一的开发者与维护者，作为发布主网的一部分，临界早期团队与临界基金会将提出关于旨在支持临界生态发展的治理结构与决策过程，以推动临界网络后续的不断发展。
+
+　　虽然去中心化作为区块链技术的基础思想，但在处理公链重大决策时，也会面临反应滞后、话语权易受持有节点操控（这点PoS模式体现得更为明显）。目前来看即便是区块链技术，完全的去中心化也过于理想主义。
+
+　　如何在去中心化的问题上找到平衡点，是临界治理架构模型设计的关键。在临界网络生态发展的不同阶段，治理架构可以根据实际情况动态做出适当调整。治理架构是一个明确的治理机制，以协调对区块链的各种变化，如系统的参数变量，以及软件升级和宪法修订等等。
+
+
+### 3.6.1 利益相关方
+
+　　利益相关人员是指权益性通证GARD的持有者，其中部分持有者拥有特定角色，如活跃验证节点和候选节点。利益相关人员可以是具有合法身份或匿名的个人、公司、政府机构、非营利实体及其他机构。投票机制的设计可以确保实现对临界网络生态中所有利益相关人员的全覆盖。
+
+
+### 3.6.2 验证节点
+
+　　在经典的拜占庭容错算法中，每个节点有相同的权重。临界网络的验证节点与其拥有的投票权相关，其中而那些拥有相当数量投票权的节点称之为**活跃验证节点**，由他们轮流进行提交新块并进行签名，不出块仅同步区块的验证节点称之为**候选节点**。**验证节点的选举是动态的，只有当节点的股权排名挤进当前网络允许的最多活跃验证节点数量时，就能成为活跃验证节点。**活跃验证节点能够参与出块，获得出块奖励，还能代表其委托人对提案进行表决。**注意，提案是所有用户都可以发起的，只要为其抵押达到激活门槛的通证数据，但最后计票时，只计入活跃验证节点和其委托人的投票。**
+
+　　权益类通证GARD的持有人可以通过签署并提交自绑定交易成为验证节点。需要设置节点的**佣金比例**，**最大佣金比例**，**每日佣金变动上限**，还有**最小自抵押数量**（表示节点承担风险的能力，如果节点自抵押数量小于设置数量时，则会释放所有抵押股权）。活跃验证节点最大数量在网络初始化时配置，之后可以通过提案与治理进行修改。任何人都可以申请成为验证节点，验证节点的股权等于自抵押股权加上接受委托的股权，只有当总股权排名挤进活跃验证节点最大数量内时，才能成为活跃验证节点，参与出块及治理。如果排名被挤出活跃验证节点队伍，将不再参与出块。委托人可以手动将委托股权转移到其他活跃验证节点上。
+
+　　被选作去提议下一个区块的活跃验证节点称为**提议人**。每个提议人都是由明确的方式选出来的，被选的频率也与他们在总股权中所占比重相关（总股权=自抵押股权+委托人股权）。例如，如果所有活跃验证节点总的抵押股权是100亿GARD，其中某个活跃验证节点的总股权是10亿GARD，那么有10%的时间该活跃验证节点会被选作下一个提议人。
+
+　　作为临界网络的验证节点，需要承担以下成本：
+
+1. 硬件成本（与互联网连通的服务器、备份服务器、用于签名的硬件安全模块、以及运营在之上的防火墙）；
+
+2. 运营成本（获取更多委托）；
+
+3. 资产占用成本（自抵押的GARD）；
+
+|                      | 活跃验证节点 | 候选节点/全节点 |
+| -------------------- | ------------ | --------------- |
+| 最多数量             | 21           | /               |
+| 同步完整区块         | 是           | 是              |
+| 参与出块             | 是           | 否              |
+| 对提案的投票是否计入 | 是           | 否              |
+| 是否会遭受削减处罚   | 是           | 否              |
+
+### 3.6.3 委托人
+
+　　委托人是那些没有能力或者不想要做验证节点操作的GARD通证持有者。他们可以把GARD通证委托给一个活跃验证节点来参与网络投票等治理行为，并获取出块奖励。相应的活跃验证节点代表委托人行使投票权。未参与委托的通证没有投票权。
+
+### 3.6.4 佣金
+
+　　一个活跃验证节点的股权池收到的收益会被拆分为给活跃验证节点的部分和给委托人的部分。活跃验证节点可以从给其委托人的收益中抽取一部分作为佣金奖励给自己。这个佣金被设置成一个百分比。每个验证节点可以随意设置初始佣金，最大每日佣金变化比率和最大佣金。临界网络强制每个验证节点都要明确设置这些参数。这些参数只能在一开始宣布竞选时设置，也只可能在声明之后被进一步限制。
+
+### 3.6.5 出块奖励
+
+　　临界网络出块奖励会按活跃验证节点的总股权来成比例地发放。这意味着即使每个活跃验证节点每次出块时都获得了奖励，但所有活跃验证节点仍然会维持相等的权重。**临界网络启动初期的出块奖励由基金会捐赠，第一年出块基金会将捐赠10亿GARD，后续将增发GARD的方式来给予活跃验证节点出块奖励。**
+
+　　举例：假设某高度出块奖励数量为 30500 GARD，共计3个活跃验证节点，股权数量相等，则
+
+**对于提议区块的活跃验证节点即“提议人”（自身质押20%，委托人80%）：**
+
+- 获得30500/305%*105%=10500 GARD的奖池（提议人多5%）
+- 提议人所得佣金：10500\*80%*5%=420 GARD（验证节点可配置自身佣金，本例中佣金为5%）
+- 提议人总计获得奖励： 10500*20%+420=2520 GARD
+- 提议人的委托人总计获得奖励： 10500*80%-420=7980 GARD（每个委托人可以按照他们的股权占比等比例地获取这部分收益）
+
+**对于2个非提议区块的活跃验证节点即“非提议人”（自身质押20%，委托人80%），每节点:**
+
+* 获得30500/305%*100%=10000 GARD的奖池
+
+* 非提议人所得佣金：10000\*80%*8%=640 GARD（本例中两个非提议人佣金皆为8%）
+
+* 非提议人总计获得奖励： 10000\*20%+640=2640 GARD*
+
+* 非提议人的委托人总计获得奖励： 10000\*80%-640=7360 GARD（每个委托人可以按照他们的股权占比等比例地获取这部分收益）
+
+
+### 3.6.6 手续费分配
+
+　　为了防止DDOS攻击，用户使用临界网络需要支付一定的手续费，手续费的默认类型为系统通证GARD，但可以通过社区提案与投票治理的方式增加新的通证类型。手续费的计算公式为：
+
+```
+fee = gas * gasPrice
+```
+
+　　`gas`由交易决定，用于度量处理交易所消耗的计算及存储资源。不同的交易需要的`gas`数量可能是不同的，比如转账，委托这一类的交易消耗的资源少，而发币，远期支付这类交易消耗大，节点处理后者会比前者消耗更多的`gas`。
+
+　　每个节点设置的最低`gasPrice`门槛可能不同，只有达到最低门槛，交易才能被放入活跃验证节点的交易池中，等待被打包进区块。区块的大小及`gas`存在上限，打包交易的数量有限。当链上交易发生频繁时，`gasPrice`越高，被打包入区块的可能就越大。用户在发送交易时需要设置合理的`gasPrice`。验证节点配置合适的最低`gasPrice`门槛来过滤掉垃圾交易。
+
+　　手续费以类似出块奖励的方式分发给验证节点，根据系统配置比例，区块的提议人并可获得一笔额外的手续费奖励。
+
+　　当一个活跃验证节点被选作去提议下一个区块时，必须要含有对当前区块至少2/3股权的活跃验证节点签名许可。**尽管如此，仍然存在有一个激励去奖励那些超过2/3的活跃验证节点签名许可。这个奖励是线性的：如果提议人含有2/3的签名许可（区块有效的最小值），比例是1%， 如果提议人含有100%的签名许可，比例是5%。**当然，提议人不应该等待太久去做提议，或许其他的活跃验证节点有可能超时，长时间的等待容易造成提议的延误。这样的话，提议人不得不在获取最多签名的等待时间和失去对下个区块的提议之间寻找一个平衡点。这个机制旨在提议人不要去提案空块，维护活跃验证节点之间更好的网络，还有减轻审查。
+
+　　举例说明，有着10个股权相等的活跃验证节点。现在产出了一个有着 3350 GARD手续费的区块，其中30%分配给活跃验证节点，也就是1005 GARD。假设提议的区块包含了100%的活跃验证节点签名。因此提议人能获得手续费奖励中的5%的额外奖励。得出给每一个活跃验证节点的奖励R : 9\*R+R\*105%=1005  ⇔  R=1005/10.05=100 GARD
+
+**对于提议区块的活跃验证节点即“提议人”（自身质押20%，委托人80%）：**
+
+- 获得100*105%=105 GARD的奖池（提议人多5%）
+- 提议人所得佣金：105\*80%*1%=0.84 GARD（验证节点可配置自身佣金，本例中佣金为1%）
+- 提议人总计获得奖励： 105*20%+0.84=21.84 GARD
+- 提议人的委托人总计获得奖励： 105*80%-0.84=83.16 GARD（每个委托人可以按照他们的股权占比等比例地获取这部分收益）
+
+**对于9个非提议区块的活跃验证节点即“非提议人”（自身质押20%，委托人80%），每节点：**
+
+- 获得100*100%=100 GARD的奖池
+* 非提议人所得佣金：100\*80%*1%=0.8 GARD（本例中九个非提议人佣金皆为1%）
+* 非提议人总计获得奖励： 100*20%+0.8=20.8 GARD
+* 非提议人的委托人总计获得奖励： 100*80%-0.8=79.2 GARD（每个委托人可以按照他们的股权占比等比例地获取这部分收益）
+
+
+### 3.6.7 临界网络改进协议HIP
+
+　　作为社区化的开源区块链项目，临界网络具有与比特币相似的长期演进机制，称之为“HIP”（Hashgard Improvement Proposals）。
+
+　　HIP是一种设计文档，为临界社区提供信息，或描述临界网络、流程、环境的新功能。HIP应提供该功能的简明技术规范和该功能的基本原理。我们希望HIP成为提出新功能，收集社区对问题的意见以及记录临界网络改进决策的主要机制。
+
+　　HIP作者在社区内建立共识并记录不同意见，完善自己的意见或想法之后，HIP作者负责形成HIP草案文件，并向临界基金会发送HIP草案以供审核。HIP草案需要以规范格式描述问题/需求、解决方案的清晰表述以及设计思想。建议每份草案中包括单个而不是多个想法，这有助于在审核时候聚焦进行讨论。
+　　此阶段称之为Draft（草案）阶段。
+	正常情况下，基金会不会直接拒绝HIP草案，除非该HIP重复、想法或解决方案过度粗糙、技术存在问题、或是不符合临界网络的理念与发展方向。
+
+　　基金会周期性地在临界网络发起对HIP草案进行类型为“**文本**”的提案投票。通过社区投票的HIP草案即被接受为HIP提案，基金会将为其分配唯一的HIP编号并在github公布。临界社区的开发者皆可为被接受的HIP提案提供开源代码的实现，基金会综合各方面因素推举最适合的实现方案，并给与HIP作者和最佳提案实现者相应的奖励。最佳实现方案进入临界测试网络进行充分测试。
+　　投票通过，进入Accepted（已接受）阶段；
+　　投票未通过，则进入Rejected（拒绝）阶段。
+　　
+
+　　在临界测试网络中对实现方案进行充分验证后，基金会在临界网络发起对HIP提案、实现代码、测试报告进行类型为“**软件升级**”的提案投票。通过社区投票的HIP提案即被纳入临界网络的下一个最新版本，等待下一个版本全网部署激活。
+　　投票通过并纳入版本，进入Final（最终）阶段；
+　　若通过投票的HIP提案无法被纳入临界网络的下一个最新版本，则HIP提案进入Deferred（推迟）阶段，等待进入适当版本；
+　　投票未通过，则进入Rejected（拒绝）阶段。
+
+　　在临界网络新版本全网部署激活后，如果该HIP无问题，网络正常运行，则HIP提案并归档。
+　　HIP提案进入Active（激活）阶段。
+
+　　在临界网络新版本全网部署激活后，版本出现问题，网络异常，则全网投票进行回滚。如出现重大问题，则由基金会发起紧急回滚，快速回退到上一个稳定版本。
+　　HIP提案进入Replaced（被替代）阶段，并转换至Accepted（已接受）阶段，等待修复问题后，HIP提案进入测试网络再次验证。
+
+
+### 3.6.8 治理委员会
+
+　　区块链技术的去中心化运营机制赋予基金会以独特治理架构。 
+
+　　临界基金会（新加坡 Hashgard Foundation Ltd.）是非盈利的机构，致力于临界网络生态的开发、治理和进步。治理委员会是临界基金会的理事机构，负责重大战略的制订以及各职能委员会负责人的选派。治理委员会由身份明确且具有GARD投票权的利益相关人员选举产生。
+
+## 3.7 生态体系
+
+![2019-03-27-033739](pics/2019-03-27-033739.jpg)
+
+
+## 3.8 战略顾问
+
+**沈波** 
+
+　　分布式资本创始合伙人，沈波先生是区块链领域的先驱、是BitShares 和FBS Capital 的创始人。同时他也是传统金融的资深人士，在证券、对冲基金和投资银行等领域拥有数十年的丰富投资经验。
+
+**吴克忠** 
+
+　　优势资本创始合伙人、CEO，吴克忠先生获上海交通大学工程学和技术经济双学位,后获美国Univ. of Southwestern LA的工商管理硕士，自1987年先后在上海交通大学管理学院任教及河南南阳市任市长助理，1992年起就开始从事证券投资咨询及投资银行工作，1995年起在美国华尔街专业从事风险投资和私募股权投资。于2002年回国创立优势资本，在北京大学、清华大学、复旦大学、 上海交通大学、浙江大学等多所高校任EMBA客座导师，并受聘担任多个地方政府及联合国工业发展组织经济顾问。
+
+**陆扬**
+
+　　VeChain 联合创始人、CEO，毕业于上海交通大学电子与通信工程专业，拥有超过13年500强跨国企业IT高管的经验，曾任路易威登中国区首席信息官，在信息系统及技术战略及管理，企业数字化革命及数字化创新领域有丰富的经验，计算机、网络、通信领域的坚实技术背景。陆扬先生致力于将区块链技术转化为实际落地的应用并向世界展示区块链的优势来推动区块链技术的发展。2015年启动唯链（VeChain）项目，致力于区块链技术推广及商业落地。
+
+**李国权**
+
+　　新加坡新跃社科大学教授，新加坡经济学会副会长, 是多家其他机构的创始人，其中包括美国左岸学院、李白金融学院及新加坡富怡 (Ferrell) 金融集团。李国权教授曾担任多家上市企业集团董事总经理，同时还是多家上市企业的董事局主席或非执行董事。李国权教授编纂的《电子货币 (Digital Currency)》一书，由Elsevier 出版后获得美国图书馆协会 (American Library Association ) 杰出参考书籍大奖。
+
+**白硕** 
+
+　　原上海证券交易所总工程师、ChinaLedger技术委员会主任，白硕先生是资深的区块链专业人士。他毕业于北京大学，获理学博士，曾任中科院计算所副研究员、研究员、博士生导师、软件室主任、软件方向首席科学家。2000年起参与组建国家计算机网络应急技术协调中心（CNCERT/CC）。后加入万向区块链实验室担任顾问、ChinaLedger技术委员会主任。白硕先生在区块链领域拥有极为丰富的理论研究及技术实践，曾在多个场合介绍过区块链技术对传统金融业务的冲击。
+
+**张敏** 
+
+　　合力投资管理合伙人，张敏先生是合力投资管理合伙人，曾在晨兴集团担任投资总监，专注于TMT中早期股权投资。合力投资成立于2012年，总部位于上海。投资团队管理着多支人民币和美元基金，投资业务覆盖早期风险投资、中期成长投资等。
+
+**奚海峰**
+
+　　前万云CTO、IRIS联合创始人，高级技术专家、企业家。他先后获得了清华大学自动化控制学士、硕士学位和美国马里兰大学电子与计算机工程硕士学位。他曾在IBM供职六年，期间斩获诸多奖项，同时他拥有一项美国发明专利，并在多个学术期刊发表专业论文数篇。在加入边界智能之前，奚海峰先生还担任了2017年初成立的万向区块链股份公司旗下万云平台的CTO。
+
+**符安文**
+
+　　Scry.info 创始人。毕业于电子科技大学，索邦大学。计算机和物理硕士。高中时即加入中国红盟，大学创立游戏工作室，并之后卖给腾讯。后成立游戏和软件开发公司，曾带领项目获得月流水上亿元移动端产品。2014年成立Xcener Blockchain食物优，致力于帮助农场销售和扶持农业贸易供应链金融,并已服务超过3800家国际农业公司，遍布17个国家系统使用。2017年8月立项SCRY.info 区块链数据协议层。
+
+**龚鸣** 
+
+　　CYBEX、区块链铅笔创始人，龚鸣先生网名暴走龚亲王，是去中心化交易所Cybex、全球区块链孵化器Longhash 及区块链铅笔（最大中文区块链媒体）的创始人。2012年开始致力于推动数字货币和区块链行业的发展，翻译并撰写过大量相关资料和区块链项目白皮书，参与著有《区块链社会》、《区块链——新经济蓝图》、《数字货币》等多部著作。
+
+**孔华威**
+
+　　中科院计算技术研究所上海分所所长，起点资本合伙人，先后就读北京大学、浙江大学物理系。曾任张江科投首席科学家、曙光信息产业集团VP等，专注超级计算和网格计算技术研究，是区域创新生态专家，科技部火炬创业导师，发起ITALK沙龙、IC咖啡等创新组织。孔华威先生是区块链行业的深度研究和参与者，2013年担任壹比特公司技术顾问，著有“数字货币的崎岖演进”，目前受聘嘉楠耘智科学顾问。
+
+**邓辛** 
+
+　　上海财经大学金融副教授、公司金融系主任。毕业于新加坡南洋理工大学，金融学博士。目前任职于上海财经大学担任金融学院副教授以及公司金融系主任，现研究方向为加密货币定价，区块链中的治理问题。2018年1月起，以访问学者身份在哥伦比亚大学商学院研究区块链中的治理问题。
+
+
+## 3.9 合作伙伴
+
+**慢雾科技**  
+
+　　国内顶尖的网络安全公司，专注区块链生态安全，由一支拥有十多年一线网络安全攻防实战的团队创建，团队曾为 Google、微软、W3C、公安部、腾讯、阿里、百度等输出过安全能力，团队多项成果也曾进入过 Black Hat 等全球黑客大会。2018年3月，慢雾安全团队就成功披露了一起由于以太坊生态缺陷导致的亿级数字资产盗窃事故。
+
+**Primas**
+
+　　致力于用区块链技术解决互联网经济带来的一系列问题，诸如假新闻、抄袭、洗稿、标题党、低质量内容等。Primas独创的分布式可信内容协议（DTCP），将把可信、高质量的信息带回互联网，重塑互联网内容价值生态。我们相信，传播由人类智慧、情感创造的高质量信息，将促进人类社会的发展。
+
+**FINWEX**
+
+　　致力于成为全球金融科技及区块链的领导咨询企业和智库领袖之一,旗下涵盖全球顶尖金融科技系列峰会FINWEX SUMMIT、区块链智库FINWEX INSTITUTE,包含评级、指数、咨询、培训业务以及FINWEX LABS孵化器业务等。FINWEX团队由经验丰富的金融市场专家和区块链行业团队组成。核心成员均来自一流区块链、咨询、金融以及互联网公司。
+
+**Scry.info**
+
+　　全球首个开源的区块链底层协议,旨在搭建一个分享共赢的区块链应用社区，人人均可作为社区的建设者及获益人。
+
+**麦子钱包**
+
+　　由MediShares 生态孵化的移动端钱包 APP，同时支持 ETH 系、NEO 系、EOS 系 Token 和智能合约。支持人脸、声纹、活体等多种生物识别技术，保障资产安全，并使用智能合约提供安全保障。
+
+**MyToken**
+
+　　链圈币圈人手必备的高频应用，目前 MyToken 已经成为中国市场最流行的行情资讯平台，拥有超过130万用户，25万日活跃度。客户端版本已经覆盖 iOS / Android / HTML5 /Mac／Win 多类终端，同时也是新手入圈需要下载的第一款应用。
+
+**币威钱包**
+
+　　一款安全易用的数字资产管理钱包，上百种货币跨链转账收款，轻松自如。币威钱包有三大功能，首先是安全储币、坚如磐石：私钥永不联网，降低被盗风险；私钥和个人信息冷热分离；冷钱包存储私钥，分布式存储。其次为转账收款、快如闪电：根据主网状态动态调整矿工费保障转账速度；钱包内转账收款无矿工费，0秒到账。第三为沉浸体验 易用性设计：手机号生成的多链钱包，无需记忆助记词；手机验证码登录；指纹解锁一键唤起。
+
+**云链科技** 
+
+　　是一个以全球区块链应用技术开发作为主攻方向的高科技企业。 公司由资深企业家、区块链顶尖IT人士共同组成，主营区块链技术开发、技术支持、技术服务。致力于将区块链技术应用于各行各业，目前基于区块链底层技术开发了云链公链和去中心化移动端轻钱包Cloudwallet，Cloudwallet用户已经突破60万用户。与此同时云链科技在区块链多个领域都取得显著成绩，并在胡润百富区块链百强成功斩获创新科技奖。
+
+**Loopring**
+
+　　是新一代去中心化交易撮合协议，不仅拥有一套公开的用于执行交易和撮合操作的智能合约，而且还有一组链下参与者用来撮合和⼴播订单。路印协议采用去中心化技术，提供零风险的通证交易所模式，并允许多家交易所通过竞争，对同样的订单进行链外撮合及链上清结算。
+
+------
+
+
+# 第四章  法律事务与风险声明
+
+　　除本白皮书与官方网站所明确载明的之外，新加坡 Hashgard Foundation Ltd.不对临界网络及通证作任何陈述或保证。任何人参与临界网络之上通证的售卖计划及购买行为均基于其自己本身对临界网络和相应通证的相关知识、法律法规以及本白皮书的信息。在无损于前述内容的普适性的前提下，所有参与者将在临界公有链项目启动之后按现状接受通证，无论其技术规格、参数、性能或功能等。
+
+　　本白皮书列出的目标和内容可能发生变化，文档的部分内容可能随着项目进展在新版白皮书或其它文档中作出调整，团队将通过在网站上发布公告或更新白皮书或其它文档等方式，将更新内容公布于众。
+
+**新加坡 Hashgard Foundation Ltd.在此明确不承担下述责任:** 
+
+1. 任何人在购买通证时违反了任何国家的反洗钱、反恐怖主义融资或其他监管要求；
+
+2. 任何人在购买通证时违反了本白皮书规定的任何陈述、保证、义务、承诺或其他要求，以及由此导致的无法使用或无法提取通证；
+
+3. 由于任何原因，任何通证的售卖计划被放弃;  
+
+4. 临界网络的开发失败或被放弃，以及因此导致的无法交付或无法使用通证；
+
+5. 临界网络开发的推迟或延期，以及因此导致的无法达成事先披露的日程；
+
+6. 临界网络及其通证源代码的错误、瑕疵、缺陷或其他问题；
+
+7. 临界网络、通证的故障、崩溃、瘫痪、回滚或硬分叉；
+
+8. 临界网络或通证未能实现任何特定功能或不适合任何特定用途；
+
+9. 对临界通证出售计划所募集的资金的使用；
+
+10. 未能及时且完整的披露关于临界网络网络的信息；
+
+11. 任何参与者泄露、丢失或损毁临界通证的钱包私钥；
+
+12. 临界通证的第三方分销平台的违约、违规、侵权、崩溃、瘫痪、服务终止或暂停、 欺诈、误操作、不当行为、失误、疏忽、破产、清算、解散或歇业；
+
+13. 任何人与第三方分销平台之间的约定内容与本白皮书内容存在差异、冲突或矛盾；
+
+14. 任何人对临界通证的交易或投机行为；
+
+15. 临界通证在任何交易平台的上市、停牌或退市；
+
+16. 临界通证被任何政府、准政府机构、主管当局或公共机构归类为或视为是一种货币、证券、商业票据、流通票据、投资品或其他事物，以至于受到禁止、监管或法律限制；
+
+17. 本白皮书披露的任何风险因素，以及与该风险因素有关，因此导致或伴随发生的损害、损失、索赔、责任、惩罚、成本或其他负面影响。
+
+　　此外，还存在着一些新加坡 Hashgard Foundation Ltd.与团队尚未提及或尚未预料到的风险。在适用法律允许的最大范围内，对因参与所产生的损害及风险，包括但不限于直接或间接的个人损害、商业盈利损失、商业信息丢失或其他经济损失，新加坡 Hashgard Foundation Ltd.与团队不承担责任。请参与者做出参与决策之前，充分了解团队背景，知晓项目整体框架与思路，理性参与。
