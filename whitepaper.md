@@ -584,10 +584,6 @@ Hashgard Foundation Ltd. (Singapore) is a non-profit organization dedicated to t
 
 ### 3.9 Strategic Consultants
 
-Shen Bo
-
-Founding Partner of Fenbushi Capital. Mr. Shen is a pioneer in the blockchain field and is the founder of BitShares and FBS Capital. He is also an expert in traditional finance with decades of extensive investment experience in securities, hedge funds and investment banking.
-
 Kevin Wu
 
 Founding Partner and CEO of PreIPO Capital Partners. Mr. Kevin Wu received a double degree in Engineering and Economics from Shanghai Jiaotong University, and then obtained an MBA degree from University of Southwestern LA. He has taught at the School of Management of Shanghai Jiaotong University since 1987 and served as Assistant to the Mayor of Nanyang City, Henan Province. He began to work in securities investment consulting and investment banking since 1992. Since 1995, he specialized in venture capital and private equity investment in Wall Street. In 2002, he returned to China to establish PreIPO Capital, and served as an EMBA guest lecturer at Peking University, Tsinghua University, Fudan University, Shanghai Jiaotong University, Zhejiang University, etc., and was employed as an economic advisor to several local governments and the United Nations Industrial Development Organization.
